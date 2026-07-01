@@ -4,8 +4,8 @@ from urllib.parse import urlparse, parse_qs
 
 start_time = time.time()
 
-JSON_PATH = os.path.join("C:\\", "Users", "franc", "Desktop", "STAGE", "publications.json")
-file_path = r"C:\Users\franc\Desktop\STAGE\seconds.txt"
+JSON_PATH = os.path.join("C:\\", "Users", "franc", "Desktop", "Progetto-Stage", "publications.json")
+file_path = r"C:\Users\franc\Desktop\Progetto-Stage\seconds.txt"
 
 multi_fields = {
         "dc.authority.people",
@@ -173,7 +173,7 @@ end_time = time.time()
 
 tempo_esecuzione = end_time - start_time
 
-# Scrittura su file (append per non sovrascrivere)
+
 with open(file_path, "a") as file:
     file.write(f"{tempo_esecuzione}\n")
 
