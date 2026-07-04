@@ -1,3 +1,13 @@
+"""
+========================================================
+AUTORE: Francesco Posteraro
+DESCRIZIONE:
+Script utlizzato solo per capire il tempo medio che 
+lo script web_scraper.py impiega solo per la creazione del file jsons
+
+========================================================
+"""
+
 def calcola_media(file_path):
     valori = []
 
