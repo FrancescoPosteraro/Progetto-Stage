@@ -32,6 +32,6 @@ def calcola_media(file_path):
 
 
 # Percorso completo del file
-file_input = r"C:\Users\franc\Desktop\Progetto-Stage\seconds.txt"
+file_input = r"C:\Users\franc\Desktop\Progetto-Stage\extra\seconds.txt"
 
 calcola_media(file_input)

@@ -1,0 +1,806 @@
+[
+    {
+        "campo": "dc.authority.people",
+        "count": 154
+    },
+    {
+        "campo": "dc.type.driver",
+        "count": 154
+    },
+    {
+        "campo": "dc.date.issued",
+        "count": 154
+    },
+    {
+        "campo": "dc.contributor.area",
+        "count": 154
+    },
+    {
+        "campo": "dc.identifier.uri",
+        "count": 154
+    },
+    {
+        "campo": "dc.collection.name",
+        "count": 154
+    },
+    {
+        "campo": "dc.description.allpeople",
+        "count": 154
+    },
+    {
+        "campo": "dc.language.iso",
+        "count": 154
+    },
+    {
+        "campo": "dc.title",
+        "count": 154
+    },
+    {
+        "campo": "iris.orcid.lastModifiedDate",
+        "count": 154
+    },
+    {
+        "campo": "dc.collection.id.s",
+        "count": 154
+    },
+    {
+        "campo": "dc.date.available",
+        "count": 154
+    },
+    {
+        "campo": "dc.description.allpeopleoriginal",
+        "count": 154
+    },
+    {
+        "campo": "iris.orcid.lastModifiedMillisecond",
+        "count": 154
+    },
+    {
+        "campo": "dc.date.firstsubmission",
+        "count": 154
+    },
+    {
+        "campo": "dc.subject.singlekeyword",
+        "count": 154
+    },
+    {
+        "campo": "dc.date.submission",
+        "count": 154
+    },
+    {
+        "campo": "dc.type",
+        "count": 154
+    },
+    {
+        "campo": "dc.contributor.appartenenza",
+        "count": 154
+    },
+    {
+        "campo": "dc.contributor.appartenenza.mi",
+        "count": 154
+    },
+    {
+        "campo": "Appare nelle tipologie:",
+        "count": 154
+    },
+    {
+        "campo": "dc.description.fulltext",
+        "count": 154
+    },
+    {
+        "campo": "dc.identifier.citation",
+        "count": 154
+    },
+    {
+        "campo": "dc.type.full",
+        "count": 154
+    },
+    {
+        "campo": "dc.description.international",
+        "count": 153
+    },
+    {
+        "campo": "dc.type.research",
+        "count": 153
+    },
+    {
+        "campo": "dc.date.accessioned",
+        "count": 153
+    },
+    {
+        "campo": "dc.description.numberofauthors",
+        "count": 151
+    },
+    {
+        "campo": "dc.type.contribution",
+        "count": 150
+    },
+    {
+        "campo": "dc.type.referee",
+        "count": 149
+    },
+    {
+        "campo": "iris.sitodocente.maxattempts",
+        "count": 148
+    },
+    {
+        "campo": "dc.type.miur",
+        "count": 146
+    },
+    {
+        "campo": "dc.subject.keywordseng",
+        "count": 142
+    },
+    {
+        "campo": "dc.description.abstracteng",
+        "count": 132
+    },
+    {
+        "campo": "dc.authority.academicField2024",
+        "count": 130
+    },
+    {
+        "campo": "dc.publisher.name",
+        "count": 129
+    },
+    {
+        "campo": "dc.relation.numberofpages",
+        "count": 119
+    },
+    {
+        "campo": "dc.relation.firstpage",
+        "count": 115
+    },
+    {
+        "campo": "dc.relation.lastpage",
+        "count": 114
+    },
+    {
+        "campo": "dc.description.fulltextoriginal",
+        "count": 114
+    },
+    {
+        "campo": "iris.scopus.extTitle",
+        "count": 108
+    },
+    {
+        "campo": "iris.scopus.extIssued",
+        "count": 108
+    },
+    {
+        "campo": "scopus.date.issued",
+        "count": 107
+    },
+    {
+        "campo": "scopus.document.type",
+        "count": 107
+    },
+    {
+        "campo": "scopus.journal.sourceid",
+        "count": 107
+    },
+    {
+        "campo": "scopus.identifier.pui",
+        "count": 107
+    },
+    {
+        "campo": "scopus.identifier.scopus",
+        "count": 107
+    },
+    {
+        "campo": "scopus.description.allpeopleoriginal",
+        "count": 107
+    },
+    {
+        "campo": "scopus.language.iso",
+        "count": 107
+    },
+    {
+        "campo": "scopus.title",
+        "count": 107
+    },
+    {
+        "campo": "scopus.titleeng",
+        "count": 107
+    },
+    {
+        "campo": "scopus.category",
+        "count": 107
+    },
+    {
+        "campo": "scopus.document.types",
+        "count": 107
+    },
+    {
+        "campo": "dc.identifier.scopus",
+        "count": 107
+    },
+    {
+        "campo": "scopus.contributor.name",
+        "count": 106
+    },
+    {
+        "campo": "scopus.contributor.surname",
+        "count": 106
+    },
+    {
+        "campo": "scopus.contributor.dptid",
+        "count": 106
+    },
+    {
+        "campo": "scopus.contributor.country",
+        "count": 106
+    },
+    {
+        "campo": "scopus.contributor.auid",
+        "count": 106
+    },
+    {
+        "campo": "scopus.contributor.affiliation",
+        "count": 106
+    },
+    {
+        "campo": "scopus.contributor.afid",
+        "count": 106
+    },
+    {
+        "campo": "scopus.contributor.subaffiliation",
+        "count": 106
+    },
+    {
+        "campo": "iris.unpaywall.metadataCallLastModifiedMillisecond",
+        "count": 104
+    },
+    {
+        "campo": "iris.unpaywall.metadataCallLastModified",
+        "count": 104
+    },
+    {
+        "campo": "dc.identifier.doi",
+        "count": 104
+    },
+    {
+        "campo": "iris.unpaywall.isoa",
+        "count": 104
+    },
+    {
+        "campo": "iris.unpaywall.oastatus",
+        "count": 104
+    },
+    {
+        "campo": "iris.unpaywall.doi",
+        "count": 104
+    },
+    {
+        "campo": "scopus.description.abstracteng",
+        "count": 102
+    },
+    {
+        "campo": "dc.relation.conferencedate",
+        "count": 102
+    },
+    {
+        "campo": "dc.type.invited",
+        "count": 102
+    },
+    {
+        "campo": "dc.relation.conferencename",
+        "count": 102
+    },
+    {
+        "campo": "dc.relation.conferenceplace",
+        "count": 101
+    },
+    {
+        "campo": "scopus.differences",
+        "count": 100
+    },
+    {
+        "campo": "scopus.identifier.doi",
+        "count": 98
+    },
+    {
+        "campo": "dc.relation.ispartofbook",
+        "count": 98
+    },
+    {
+        "campo": "scopus.subject.keywords",
+        "count": 94
+    },
+    {
+        "campo": "scopus.relation.firstpage",
+        "count": 92
+    },
+    {
+        "campo": "scopus.relation.lastpage",
+        "count": 91
+    },
+    {
+        "campo": "scopus.publisher.name",
+        "count": 90
+    },
+    {
+        "campo": "dc.identifier.source",
+        "count": 86
+    },
+    {
+        "campo": "dc.identifier.isi",
+        "count": 84
+    },
+    {
+        "campo": "dc.identifier.isbn",
+        "count": 84
+    },
+    {
+        "campo": "iris.isi.extTitle",
+        "count": 82
+    },
+    {
+        "campo": "iris.isi.extIssued",
+        "count": 82
+    },
+    {
+        "campo": "isi.contributor.country",
+        "count": 78
+    },
+    {
+        "campo": "isi.document.type",
+        "count": 78
+    },
+    {
+        "campo": "isi.contributor.name",
+        "count": 78
+    },
+    {
+        "campo": "isi.document.types",
+        "count": 78
+    },
+    {
+        "campo": "isi.contributor.subaffiliation",
+        "count": 78
+    },
+    {
+        "campo": "isi.category",
+        "count": 78
+    },
+    {
+        "campo": "isi.identifier.isi",
+        "count": 78
+    },
+    {
+        "campo": "isi.contributor.affiliation",
+        "count": 78
+    },
+    {
+        "campo": "isi.contributor.researcherId",
+        "count": 78
+    },
+    {
+        "campo": "isi.title",
+        "count": 78
+    },
+    {
+        "campo": "isi.date.issued",
+        "count": 78
+    },
+    {
+        "campo": "isi.document.sourcetype",
+        "count": 78
+    },
+    {
+        "campo": "isi.description.allpeopleoriginal",
+        "count": 78
+    },
+    {
+        "campo": "isi.journal.journaltitle",
+        "count": 78
+    },
+    {
+        "campo": "isi.document.typenorm",
+        "count": 78
+    },
+    {
+        "campo": "isi.language.original",
+        "count": 78
+    },
+    {
+        "campo": "isi.contributor.surname",
+        "count": 78
+    },
+    {
+        "campo": "iris.unpaywall.journalisindoaj",
+        "count": 76
+    },
+    {
+        "campo": "dc.relation.volume",
+        "count": 74
+    },
+    {
+        "campo": "isi.description.abstracteng",
+        "count": 71
+    },
+    {
+        "campo": "scopus.relation.conferencedate",
+        "count": 70
+    },
+    {
+        "campo": "scopus.relation.conferencename",
+        "count": 70
+    },
+    {
+        "campo": "scopus.relation.conferenceplace",
+        "count": 69
+    },
+    {
+        "campo": "isi.identifier.doi",
+        "count": 68
+    },
+    {
+        "campo": "isi.relation.firstpage",
+        "count": 67
+    },
+    {
+        "campo": "isi.relation.lastpage",
+        "count": 67
+    },
+    {
+        "campo": "scopus.identifier.isbn",
+        "count": 65
+    },
+    {
+        "campo": "scopus.relation.volume",
+        "count": 64
+    },
+    {
+        "campo": "isi.journal.journaltitleabbrev",
+        "count": 64
+    },
+    {
+        "campo": "dc.authority.sdg",
+        "count": 63
+    },
+    {
+        "campo": "iris.mediafilter.data",
+        "count": 63
+    },
+    {
+        "campo": "dc.subject.keywords",
+        "count": 52
+    },
+    {
+        "campo": "iris.unpaywall.landingpage",
+        "count": 51
+    },
+    {
+        "campo": "iris.unpaywall.bestoaversion",
+        "count": 51
+    },
+    {
+        "campo": "dc.date.created",
+        "count": 51
+    },
+    {
+        "campo": "dc.type.circulation",
+        "count": 49
+    },
+    {
+        "campo": "scopus.identifier.eissn",
+        "count": 46
+    },
+    {
+        "campo": "isi.relation.volume",
+        "count": 44
+    },
+    {
+        "campo": "dc.relation.conferencenumber",
+        "count": 43
+    },
+    {
+        "campo": "iris.unpaywall.hosttype",
+        "count": 42
+    },
+    {
+        "campo": "iris.unpaywall.bestoahost",
+        "count": 42
+    },
+    {
+        "campo": "dc.authority.ancejournal",
+        "count": 41
+    },
+    {
+        "campo": "dc.relation.issue",
+        "count": 40
+    },
+    {
+        "campo": "scopus.funding.funders",
+        "count": 39
+    },
+    {
+        "campo": "iris.unpaywall.pdfurl",
+        "count": 39
+    },
+    {
+        "campo": "dc.authority.anceserie",
+        "count": 38
+    },
+    {
+        "campo": "dc.relation.medium",
+        "count": 37
+    },
+    {
+        "campo": "iris.unpaywall.license",
+        "count": 37
+    },
+    {
+        "campo": "isi.identifier.eissn",
+        "count": 36
+    },
+    {
+        "campo": "scopus.authority.ancejournal",
+        "count": 36
+    },
+    {
+        "campo": "dc.type.publicationstatus",
+        "count": 35
+    },
+    {
+        "campo": "dc.publisher.country",
+        "count": 34
+    },
+    {
+        "campo": "scopus.relation.issue",
+        "count": 32
+    },
+    {
+        "campo": "scopus.funding.ids",
+        "count": 31
+    },
+    {
+        "campo": "dc.relation.article",
+        "count": 31
+    },
+    {
+        "campo": "scopus.relation.article",
+        "count": 31
+    },
+    {
+        "campo": "iris.isi.ideLinkStatusDate",
+        "count": 29
+    },
+    {
+        "campo": "iris.isi.ideLinkStatusMillisecond",
+        "count": 29
+    },
+    {
+        "campo": "scopus.authority.anceserie",
+        "count": 27
+    },
+    {
+        "campo": "isi.authority.sdg",
+        "count": 27
+    },
+    {
+        "campo": "isi.publisher.place",
+        "count": 24
+    },
+    {
+        "campo": "isi.authority.ancejournal",
+        "count": 24
+    },
+    {
+        "campo": "isi.relation.issue",
+        "count": 23
+    },
+    {
+        "campo": "isi.authority.anceserie",
+        "count": 21
+    },
+    {
+        "campo": "iris.wkg.publication",
+        "count": 21
+    },
+    {
+        "campo": "dc.identifier.url",
+        "count": 19
+    },
+    {
+        "campo": "dc.date.aheadofprint",
+        "count": 18
+    },
+    {
+        "campo": "dc.relation.alleditors",
+        "count": 18
+    },
+    {
+        "campo": "dc.date.updated",
+        "count": 15
+    },
+    {
+        "campo": "iris.scopus.ideLinkStatusDate",
+        "count": 14
+    },
+    {
+        "campo": "iris.scopus.ideLinkStatusMillisecond",
+        "count": 14
+    },
+    {
+        "campo": "dc.description.otherinformation",
+        "count": 12
+    },
+    {
+        "campo": "dc.description.abstractita",
+        "count": 10
+    },
+    {
+        "campo": "dc.description.sponsorship",
+        "count": 9
+    },
+    {
+        "campo": "dc.identifier.pmid",
+        "count": 8
+    },
+    {
+        "campo": "dc.subject.keywordsita",
+        "count": 8
+    },
+    {
+        "campo": "dc.relation.ispartofseries",
+        "count": 8
+    },
+    {
+        "campo": "dc.date.accepted",
+        "count": 7
+    },
+    {
+        "campo": "scopus.identifier.pmid",
+        "count": 7
+    },
+    {
+        "campo": "dc.type.impactfactor",
+        "count": 7
+    },
+    {
+        "campo": "dc.miur.last.status.update",
+        "count": 6
+    },
+    {
+        "campo": "iris.unpaywall.previousstate",
+        "count": 6
+    },
+    {
+        "campo": "iris.unpaywall.errorsynciris",
+        "count": 6
+    },
+    {
+        "campo": "dc.publisher.place",
+        "count": 6
+    },
+    {
+        "campo": "iris.isi.metadataStatus",
+        "count": 6
+    },
+    {
+        "campo": "iris.monitoring.isiCategoryVerified",
+        "count": 6
+    },
+    {
+        "campo": "iris.monitoring.isiDoctypeVerified",
+        "count": 6
+    },
+    {
+        "campo": "iris.isi.metadataErrorDescription",
+        "count": 6
+    },
+    {
+        "campo": "iris.isi.metadataErrorType",
+        "count": 6
+    },
+    {
+        "campo": "dc.relation.projectAwardTitle",
+        "count": 5
+    },
+    {
+        "campo": "dc.authority.project",
+        "count": 5
+    },
+    {
+        "campo": "dc.relation.projectFunderName",
+        "count": 5
+    },
+    {
+        "campo": "dc.relation.projectAwardNumber",
+        "count": 5
+    },
+    {
+        "campo": "dc.relation.projectAcronym",
+        "count": 5
+    },
+    {
+        "campo": "dc.relation.projectFundingStream",
+        "count": 5
+    },
+    {
+        "campo": "iris.unpaywall.lastdatesynciris",
+        "count": 5
+    },
+    {
+        "campo": "dc.description.allauthors",
+        "count": 5
+    },
+    {
+        "campo": "dc.relation.serieissn",
+        "count": 5
+    },
+    {
+        "campo": "dc.authority.academicField2000",
+        "count": 4
+    },
+    {
+        "campo": "dc.relation.projectGrantNo",
+        "count": 3
+    },
+    {
+        "campo": "scopus.publisher.place",
+        "count": 3
+    },
+    {
+        "campo": "dc.type.dcmi",
+        "count": 3
+    },
+    {
+        "campo": "scopus.titleita",
+        "count": 2
+    },
+    {
+        "campo": "scopus.title.original",
+        "count": 2
+    },
+    {
+        "campo": "dc.description.generic",
+        "count": 2
+    },
+    {
+        "campo": "dc.relation.serieeissn",
+        "count": 2
+    },
+    {
+        "campo": "dc.identifier.doicontainer",
+        "count": 1
+    },
+    {
+        "campo": "iris.bncf.handle",
+        "count": 1
+    },
+    {
+        "campo": "iris.bncf.datainvio",
+        "count": 1
+    },
+    {
+        "campo": "dc.description.phdCourse",
+        "count": 1
+    },
+    {
+        "campo": "iris.bncf.stato",
+        "count": 1
+    },
+    {
+        "campo": "dc.coverage.academiccycle",
+        "count": 1
+    },
+    {
+        "campo": "iris.bncf.nbn",
+        "count": 1
+    },
+    {
+        "campo": "dc.authority.advisor",
+        "count": 1
+    },
+    {
+        "campo": "dc.coverage.academicyear",
+        "count": 1
+    },
+    {
+        "campo": "iris.bncf.uuid",
+        "count": 1
+    }
+]

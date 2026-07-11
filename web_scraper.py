@@ -20,9 +20,9 @@ BASE_DIR = Path(__file__).resolve().parent
 #Path del file publications.json (per il momento é solo il path nel mio pc)
 JSON_PATH = BASE_DIR / "publications.json"
 #Path del file seconds che contiene tutti i tempi di esecuzione di tutte le esecuzioni
-SECONDS_PATH = BASE_DIR / "seconds.txt"
+SECONDS_PATH = BASE_DIR / "EXTRA" / "seconds.txt"
 
-LAST_UPDATE_PATH = BASE_DIR / "last_update.json"
+LAST_UPDATE_PATH = BASE_DIR / "EXTRA" /"last_update.json"
 
 #Set creato per distiguere i metadati delle pubblicazioni con ripetizioni
 multi_fields = {
