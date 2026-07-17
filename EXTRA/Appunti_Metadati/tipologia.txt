@@ -1,0 +1,107 @@
+01 - Articolo su Rivista.
+
+"dc.authority.ancejournal": Nome rivista
+"dc.relation.volume": Indica il volume della rivista (il volume in cui appare la pubb?)
+"dc.relation.issue" : Numero/fascicolo della rivista. Insieme al volume identifica dove si trova l'articolo nella rivista.
+"dc.relation.firstpage" e "dc.relation.lastpage" : Indicano l'intervallo di pagine dell'articolo.
+"dc.type.publicationstatus" : Indica lo stato della pubblicazione
+"dc.publisher.name"
+
+
+
+
+02 - Intervento a Convegno
+
+"dc.relation.conferencename" : Nome della conferenza
+"dc.relation.conferencedate" : Data della conferenza
+"dc.relation.conferenceplace" : Luogo della conferenza
+"dc.relation.ispartofbook" : Titolo degli atti del convegno
+"dc.publisher.name" : Editore degli atti della conferenza
+"dc.relation.firstpage" : Prima pagina dell'intervento negli atti
+"dc.relation.lastpage" : Ultima pagina dell'intervento negli atti
+"dc.publisher.name"
+
+
+
+
+03 - Contributo in Libro
+
+"dc.publisher.name" : editore del libro
+"dc.relation.firstpage" : Prima pagina dell'intervento
+"dc.relation.lastpage" : Ultima pagina dell'intervento
+"dc.relation.ispartofbook" : titolo del libro che contiene l'intervento
+"dc.relation.volume" : volume della serie editoriale
+"dc.identifier.isbn" : codice identificativo del libro
+"dc.publisher.name" : nome editore
+"dc.publisher.country" : paese editore
+"dc.type.research"
+
+
+
+04 - Monografia
+
+"dc.identifier.isbn" : codice univoco libro
+"dc.relation.ispartofseries"
+"dc.publisher.place"
+"dc.publisher.country"
+"dc.publisher.name"
+
+
+
+05 - Curatele
+
+"dc.identifier.isbn"
+"dc.publisher.name"
+"dc.relation.medium"
+"dc.type.research"
+
+
+
+09 - Tesi di dottorato
+
+"dc.description.phdCourse" 
+"dc.coverage.academiccycle"
+"dc.coverage.academicyear"
+"dc.authority.advisor"
+"dc.publisher.name"
+
+
+
+99 - Altro
+
+"dc.type.dcmi" : tipologia della risorsa secondo il vocabolario DCMI
+"dc.identifier.url" : indirizzo web esterno associato alla risorsa
+"dc.description.generic" : descrizione genrale della risorsa
+"dc.description.abstracteng" : riassunto della pubblicazione
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -69,6 +69,8 @@ def upsert_publication(data, pub):
     # Dizionario che conterrà i dati della singola pubblicazione
     pub_dict = {}
 
+    metadati_pubblicazione = set()
+
     #Ricerca del blocco HTML che il linki handle
     div = pub.find("div", class_="accordion-body")
 
@@ -100,7 +102,7 @@ def upsert_publication(data, pub):
         key = label_td.get_text(strip=True)
         #Estraggo il valore del metadato
         value = value_td.get_text(strip=True)
-
+    
         #Se la chiave rientra nelle chiavi che prevedono piu' di un valore li salvo in una lsita
         if key in multi_fields:
             pub_dict.setdefault(key, []).append(value)

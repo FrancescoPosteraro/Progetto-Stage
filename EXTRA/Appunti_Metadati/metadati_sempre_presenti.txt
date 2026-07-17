@@ -1,0 +1,104 @@
+METADATI SEMPRE PRESENTI
+
+dc.authority.people -> autori associati alla pubblicazione
+
+dc.type.driver -> tipologia della pubblicazione (conferenza, articolo, ecc...)
+
+dc.date.issued -> data bibliografica della pubblicazione
+
+dc.contributor.area -> area disciplinare di riferimento associata alla pubblicazione
+
+dc.identifier.uri -> identificativo persistente della pubblicazione nel repository (ridondanza con handle)
+
+dc.collection.name -> indica il tipo di pubblicazione con codice
+			01 : Articolo su Rivista
+			02 : Intervento a Convegno
+			03 : Contributo in libro
+			04 : Monografia 
+			05 : Curatele
+			09 : Tesi di Dottorato
+			99 : Altro
+			
+			
+			
+
+*dc.description.allpeople
+					-> Questi due campi sono praticamente la stessa cosa.
+*dc.description.allpeopleoriginal
+
+dc.language.iso -> lingua della pubblicazione (usando codice ISO 639-3)
+
+iris.orcid.lastModifiedDate -> DATA DI ULTIMA MODIFICA
+
+*dc.collection.id.s -> Probabile codice interno per identificare il tipo di pubblicazione
+
+*dc.date.available -> Indica la data e ora di quando una pubblicazione é diventata disponibile nel sito.
+
+iris.orcid.lastModifiedMillisecond -> Data e ora dell'ultima modifica in millisecondi
+
+dc.date.firstsubmission -> data e ora dell'inserimento della pubblicazione nel sistema Iris
+
+dc.subject.singlekeyword -> parole chiavi della pubblicazione
+
+dc.date.submission -> data e ora di quando la pubblicazione è arrivata ad un determinato step nel processo di validazione? (molto simile a firstsubmission)
+
+dc.type -> tipologia bibliografica della pubblicazione
+
+dc.contributor.appartenenza -> tecnicamente rappresenta l'appartenenza degli autori ad un dipartimento
+
+dc.contributor.appartenenza.mi -> indica il codice identificativo di dc.contributor.appartenenza
+
+*Appare nelle tipologie: -> tipologia di pubblicazione
+
+dc.description.fulltext -> stato di accesso della pubblicazione
+
+dc.identifier.citation -> citazione bibliografica completa della pubblicazione
+
+dc.type.full -> tipologia di pubblicazione
+
+dc.title -> Ttiolo della pubblicazione
+
+
+
+
+METADATI NON SEMPRE PRESENTI MA INTERESSANTI
+
+dc.type.contribution : tipo di contributo (appare in 01, 02, 03 [tipolgoie])
+
+dc.type.referee : Indica il tipo di revisione scientifica (presente 149 volte)
+
+dc.relation.medium : formato della publicazione (appare in 01, 02, 05, 99) (inserita in 05)
+
+dc.publisher.country : nazionalita dell'editore (appare in 01, 02, 03, 04, 05) (inserita in 02 e03)
+
+dc.type.referee : Indica il tipo di revisione scientifica (appare 149 volte)
+
+dc.type.circulation : rilevanza della pubblicazione
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

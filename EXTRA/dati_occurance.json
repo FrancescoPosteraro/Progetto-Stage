@@ -1,90 +1,6 @@
 [
     {
-        "campo": "dc.authority.people",
-        "count": 154
-    },
-    {
-        "campo": "dc.type.driver",
-        "count": 154
-    },
-    {
-        "campo": "dc.date.issued",
-        "count": 154
-    },
-    {
-        "campo": "dc.contributor.area",
-        "count": 154
-    },
-    {
         "campo": "dc.identifier.uri",
-        "count": 154
-    },
-    {
-        "campo": "dc.collection.name",
-        "count": 154
-    },
-    {
-        "campo": "dc.description.allpeople",
-        "count": 154
-    },
-    {
-        "campo": "dc.language.iso",
-        "count": 154
-    },
-    {
-        "campo": "dc.title",
-        "count": 154
-    },
-    {
-        "campo": "iris.orcid.lastModifiedDate",
-        "count": 154
-    },
-    {
-        "campo": "dc.collection.id.s",
-        "count": 154
-    },
-    {
-        "campo": "dc.date.available",
-        "count": 154
-    },
-    {
-        "campo": "dc.description.allpeopleoriginal",
-        "count": 154
-    },
-    {
-        "campo": "iris.orcid.lastModifiedMillisecond",
-        "count": 154
-    },
-    {
-        "campo": "dc.date.firstsubmission",
-        "count": 154
-    },
-    {
-        "campo": "dc.subject.singlekeyword",
-        "count": 154
-    },
-    {
-        "campo": "dc.date.submission",
-        "count": 154
-    },
-    {
-        "campo": "dc.type",
-        "count": 154
-    },
-    {
-        "campo": "dc.contributor.appartenenza",
-        "count": 154
-    },
-    {
-        "campo": "dc.contributor.appartenenza.mi",
-        "count": 154
-    },
-    {
-        "campo": "Appare nelle tipologie:",
-        "count": 154
-    },
-    {
-        "campo": "dc.description.fulltext",
         "count": 154
     },
     {
@@ -92,12 +8,92 @@
         "count": 154
     },
     {
+        "campo": "dc.type",
+        "count": 154
+    },
+    {
+        "campo": "dc.type.driver",
+        "count": 154
+    },
+    {
+        "campo": "dc.date.submission",
+        "count": 154
+    },
+    {
         "campo": "dc.type.full",
         "count": 154
     },
     {
-        "campo": "dc.description.international",
-        "count": 153
+        "campo": "dc.description.fulltext",
+        "count": 154
+    },
+    {
+        "campo": "dc.authority.people",
+        "count": 154
+    },
+    {
+        "campo": "iris.orcid.lastModifiedDate",
+        "count": 154
+    },
+    {
+        "campo": "dc.contributor.appartenenza.mi",
+        "count": 154
+    },
+    {
+        "campo": "dc.date.firstsubmission",
+        "count": 154
+    },
+    {
+        "campo": "dc.description.allpeople",
+        "count": 154
+    },
+    {
+        "campo": "dc.subject.singlekeyword",
+        "count": 154
+    },
+    {
+        "campo": "dc.description.allpeopleoriginal",
+        "count": 154
+    },
+    {
+        "campo": "dc.date.issued",
+        "count": 154
+    },
+    {
+        "campo": "dc.date.available",
+        "count": 154
+    },
+    {
+        "campo": "iris.orcid.lastModifiedMillisecond",
+        "count": 154
+    },
+    {
+        "campo": "dc.contributor.area",
+        "count": 154
+    },
+    {
+        "campo": "dc.title",
+        "count": 154
+    },
+    {
+        "campo": "dc.language.iso",
+        "count": 154
+    },
+    {
+        "campo": "Appare nelle tipologie:",
+        "count": 154
+    },
+    {
+        "campo": "dc.contributor.appartenenza",
+        "count": 154
+    },
+    {
+        "campo": "dc.collection.name",
+        "count": 154
+    },
+    {
+        "campo": "dc.collection.id.s",
+        "count": 154
     },
     {
         "campo": "dc.type.research",
@@ -105,6 +101,10 @@
     },
     {
         "campo": "dc.date.accessioned",
+        "count": 153
+    },
+    {
+        "campo": "dc.description.international",
         "count": 153
     },
     {
@@ -160,27 +160,19 @@
         "count": 114
     },
     {
-        "campo": "iris.scopus.extTitle",
-        "count": 108
-    },
-    {
         "campo": "iris.scopus.extIssued",
         "count": 108
     },
     {
-        "campo": "scopus.date.issued",
+        "campo": "iris.scopus.extTitle",
+        "count": 108
+    },
+    {
+        "campo": "scopus.category",
         "count": 107
     },
     {
-        "campo": "scopus.document.type",
-        "count": 107
-    },
-    {
-        "campo": "scopus.journal.sourceid",
-        "count": 107
-    },
-    {
-        "campo": "scopus.identifier.pui",
+        "campo": "scopus.document.types",
         "count": 107
     },
     {
@@ -188,7 +180,31 @@
         "count": 107
     },
     {
+        "campo": "dc.identifier.scopus",
+        "count": 107
+    },
+    {
+        "campo": "scopus.journal.sourceid",
+        "count": 107
+    },
+    {
+        "campo": "scopus.date.issued",
+        "count": 107
+    },
+    {
+        "campo": "scopus.identifier.pui",
+        "count": 107
+    },
+    {
+        "campo": "scopus.document.type",
+        "count": 107
+    },
+    {
         "campo": "scopus.description.allpeopleoriginal",
+        "count": 107
+    },
+    {
+        "campo": "scopus.titleeng",
         "count": 107
     },
     {
@@ -200,35 +216,15 @@
         "count": 107
     },
     {
-        "campo": "scopus.titleeng",
-        "count": 107
-    },
-    {
-        "campo": "scopus.category",
-        "count": 107
-    },
-    {
-        "campo": "scopus.document.types",
-        "count": 107
-    },
-    {
-        "campo": "dc.identifier.scopus",
-        "count": 107
-    },
-    {
-        "campo": "scopus.contributor.name",
-        "count": 106
-    },
-    {
         "campo": "scopus.contributor.surname",
         "count": 106
     },
     {
-        "campo": "scopus.contributor.dptid",
+        "campo": "scopus.contributor.afid",
         "count": 106
     },
     {
-        "campo": "scopus.contributor.country",
+        "campo": "scopus.contributor.dptid",
         "count": 106
     },
     {
@@ -240,7 +236,7 @@
         "count": 106
     },
     {
-        "campo": "scopus.contributor.afid",
+        "campo": "scopus.contributor.country",
         "count": 106
     },
     {
@@ -248,11 +244,15 @@
         "count": 106
     },
     {
-        "campo": "iris.unpaywall.metadataCallLastModifiedMillisecond",
+        "campo": "scopus.contributor.name",
+        "count": 106
+    },
+    {
+        "campo": "iris.unpaywall.doi",
         "count": 104
     },
     {
-        "campo": "iris.unpaywall.metadataCallLastModified",
+        "campo": "iris.unpaywall.metadataCallLastModifiedMillisecond",
         "count": 104
     },
     {
@@ -260,19 +260,19 @@
         "count": 104
     },
     {
-        "campo": "iris.unpaywall.isoa",
-        "count": 104
-    },
-    {
         "campo": "iris.unpaywall.oastatus",
         "count": 104
     },
     {
-        "campo": "iris.unpaywall.doi",
+        "campo": "iris.unpaywall.isoa",
         "count": 104
     },
     {
-        "campo": "scopus.description.abstracteng",
+        "campo": "iris.unpaywall.metadataCallLastModified",
+        "count": 104
+    },
+    {
+        "campo": "dc.relation.conferencename",
         "count": 102
     },
     {
@@ -284,7 +284,7 @@
         "count": 102
     },
     {
-        "campo": "dc.relation.conferencename",
+        "campo": "scopus.description.abstracteng",
         "count": 102
     },
     {
@@ -296,11 +296,11 @@
         "count": 100
     },
     {
-        "campo": "scopus.identifier.doi",
+        "campo": "dc.relation.ispartofbook",
         "count": 98
     },
     {
-        "campo": "dc.relation.ispartofbook",
+        "campo": "scopus.identifier.doi",
         "count": 98
     },
     {
@@ -332,15 +332,39 @@
         "count": 84
     },
     {
-        "campo": "iris.isi.extTitle",
-        "count": 82
-    },
-    {
         "campo": "iris.isi.extIssued",
         "count": 82
     },
     {
+        "campo": "iris.isi.extTitle",
+        "count": 82
+    },
+    {
+        "campo": "isi.contributor.affiliation",
+        "count": 78
+    },
+    {
+        "campo": "isi.identifier.isi",
+        "count": 78
+    },
+    {
         "campo": "isi.contributor.country",
+        "count": 78
+    },
+    {
+        "campo": "isi.description.allpeopleoriginal",
+        "count": 78
+    },
+    {
+        "campo": "isi.document.sourcetype",
+        "count": 78
+    },
+    {
+        "campo": "isi.date.issued",
+        "count": 78
+    },
+    {
+        "campo": "isi.document.types",
         "count": 78
     },
     {
@@ -352,11 +376,7 @@
         "count": 78
     },
     {
-        "campo": "isi.document.types",
-        "count": 78
-    },
-    {
-        "campo": "isi.contributor.subaffiliation",
+        "campo": "isi.document.typenorm",
         "count": 78
     },
     {
@@ -364,39 +384,15 @@
         "count": 78
     },
     {
-        "campo": "isi.identifier.isi",
-        "count": 78
-    },
-    {
-        "campo": "isi.contributor.affiliation",
-        "count": 78
-    },
-    {
         "campo": "isi.contributor.researcherId",
         "count": 78
     },
     {
-        "campo": "isi.title",
+        "campo": "isi.contributor.subaffiliation",
         "count": 78
     },
     {
-        "campo": "isi.date.issued",
-        "count": 78
-    },
-    {
-        "campo": "isi.document.sourcetype",
-        "count": 78
-    },
-    {
-        "campo": "isi.description.allpeopleoriginal",
-        "count": 78
-    },
-    {
-        "campo": "isi.journal.journaltitle",
-        "count": 78
-    },
-    {
-        "campo": "isi.document.typenorm",
+        "campo": "isi.contributor.surname",
         "count": 78
     },
     {
@@ -404,7 +400,11 @@
         "count": 78
     },
     {
-        "campo": "isi.contributor.surname",
+        "campo": "isi.journal.journaltitle",
+        "count": 78
+    },
+    {
+        "campo": "isi.title",
         "count": 78
     },
     {
@@ -420,11 +420,11 @@
         "count": 71
     },
     {
-        "campo": "scopus.relation.conferencedate",
+        "campo": "scopus.relation.conferencename",
         "count": 70
     },
     {
-        "campo": "scopus.relation.conferencename",
+        "campo": "scopus.relation.conferencedate",
         "count": 70
     },
     {
@@ -436,11 +436,11 @@
         "count": 68
     },
     {
-        "campo": "isi.relation.firstpage",
+        "campo": "isi.relation.lastpage",
         "count": 67
     },
     {
-        "campo": "isi.relation.lastpage",
+        "campo": "isi.relation.firstpage",
         "count": 67
     },
     {
@@ -456,11 +456,11 @@
         "count": 64
     },
     {
-        "campo": "dc.authority.sdg",
+        "campo": "iris.mediafilter.data",
         "count": 63
     },
     {
-        "campo": "iris.mediafilter.data",
+        "campo": "dc.authority.sdg",
         "count": 63
     },
     {
@@ -468,11 +468,11 @@
         "count": 52
     },
     {
-        "campo": "iris.unpaywall.landingpage",
+        "campo": "iris.unpaywall.bestoaversion",
         "count": 51
     },
     {
-        "campo": "iris.unpaywall.bestoaversion",
+        "campo": "iris.unpaywall.landingpage",
         "count": 51
     },
     {
@@ -580,11 +580,11 @@
         "count": 27
     },
     {
-        "campo": "isi.publisher.place",
+        "campo": "isi.authority.ancejournal",
         "count": 24
     },
     {
-        "campo": "isi.authority.ancejournal",
+        "campo": "isi.publisher.place",
         "count": 24
     },
     {
@@ -616,11 +616,11 @@
         "count": 15
     },
     {
-        "campo": "iris.scopus.ideLinkStatusDate",
+        "campo": "iris.scopus.ideLinkStatusMillisecond",
         "count": 14
     },
     {
-        "campo": "iris.scopus.ideLinkStatusMillisecond",
+        "campo": "iris.scopus.ideLinkStatusDate",
         "count": 14
     },
     {
@@ -664,11 +664,11 @@
         "count": 6
     },
     {
-        "campo": "iris.unpaywall.previousstate",
+        "campo": "iris.unpaywall.errorsynciris",
         "count": 6
     },
     {
-        "campo": "iris.unpaywall.errorsynciris",
+        "campo": "iris.unpaywall.previousstate",
         "count": 6
     },
     {
@@ -676,11 +676,7 @@
         "count": 6
     },
     {
-        "campo": "iris.isi.metadataStatus",
-        "count": 6
-    },
-    {
-        "campo": "iris.monitoring.isiCategoryVerified",
+        "campo": "iris.isi.metadataErrorType",
         "count": 6
     },
     {
@@ -688,19 +684,31 @@
         "count": 6
     },
     {
+        "campo": "iris.monitoring.isiCategoryVerified",
+        "count": 6
+    },
+    {
         "campo": "iris.isi.metadataErrorDescription",
         "count": 6
     },
     {
-        "campo": "iris.isi.metadataErrorType",
+        "campo": "iris.isi.metadataStatus",
         "count": 6
     },
     {
-        "campo": "dc.relation.projectAwardTitle",
+        "campo": "dc.relation.projectFundingStream",
         "count": 5
     },
     {
         "campo": "dc.authority.project",
+        "count": 5
+    },
+    {
+        "campo": "dc.relation.projectAcronym",
+        "count": 5
+    },
+    {
+        "campo": "dc.relation.projectAwardTitle",
         "count": 5
     },
     {
@@ -709,14 +717,6 @@
     },
     {
         "campo": "dc.relation.projectAwardNumber",
-        "count": 5
-    },
-    {
-        "campo": "dc.relation.projectAcronym",
-        "count": 5
-    },
-    {
-        "campo": "dc.relation.projectFundingStream",
         "count": 5
     },
     {
@@ -768,7 +768,23 @@
         "count": 1
     },
     {
+        "campo": "iris.bncf.uuid",
+        "count": 1
+    },
+    {
+        "campo": "iris.bncf.stato",
+        "count": 1
+    },
+    {
+        "campo": "dc.authority.advisor",
+        "count": 1
+    },
+    {
         "campo": "iris.bncf.handle",
+        "count": 1
+    },
+    {
+        "campo": "iris.bncf.nbn",
         "count": 1
     },
     {
@@ -780,27 +796,11 @@
         "count": 1
     },
     {
-        "campo": "iris.bncf.stato",
-        "count": 1
-    },
-    {
-        "campo": "dc.coverage.academiccycle",
-        "count": 1
-    },
-    {
-        "campo": "iris.bncf.nbn",
-        "count": 1
-    },
-    {
-        "campo": "dc.authority.advisor",
-        "count": 1
-    },
-    {
         "campo": "dc.coverage.academicyear",
         "count": 1
     },
     {
-        "campo": "iris.bncf.uuid",
+        "campo": "dc.coverage.academiccycle",
         "count": 1
     }
 ]
