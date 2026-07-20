@@ -11,13 +11,13 @@ dc.contributor.area -> area disciplinare di riferimento associata alla pubblicaz
 dc.identifier.uri -> identificativo persistente della pubblicazione nel repository (ridondanza con handle)
 
 dc.collection.name -> indica il tipo di pubblicazione con codice
-			01 : Articolo su Rivista
-			02 : Intervento a Convegno
-			03 : Contributo in libro
-			04 : Monografia 
-			05 : Curatele
-			09 : Tesi di Dottorato
-			99 : Altro
+			01 - Articolo su Rivista
+			02 - Intervento a Convegno
+			03 - Contributo in libro
+			04 - Monografia 
+			05 - Curatele
+			09 - Tesi di Dottorato
+			99 - Altro
 			
 			
 			

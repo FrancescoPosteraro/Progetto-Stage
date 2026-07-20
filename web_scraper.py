@@ -24,31 +24,87 @@ SECONDS_PATH = BASE_DIR / "EXTRA" / "seconds.txt"
 
 LAST_UPDATE_PATH = BASE_DIR / "EXTRA" /"last_update.json"
 
-#Set creato per distiguere i metadati delle pubblicazioni con ripetizioni
-multi_fields = {
-    "dc.authority.people",
-    "dc.authority.academicField2024",
-    "dc.contributor.area",
-    "dc.subject.singlekeyword",
-    "isi.category",
-    "isi.contributor.affiliation",
-    "isi.contributor.country", 
-    "isi.contributor.name",
-    "isi.contributor.researcherId",
-    "isi.contributor.subaffiliation",
-    "isi.contributor.surname",
-    "scopus.contributor.affiliation",
-    "scopus.contributor.afid",
-    "scopus.contributor.auid",
-    "scopus.contributor.country",
-    "scopus.contributor.dptid",
-    "scopus.contributor.name",
-    "scopus.contributor.subaffiliation",
-    "scopus.contributor.surname",
-    "scopus.differences",  
+#dizionario di conversione per tradurre i nome che arrivano dal sito i nomi piu' semplici da leggere
+FIELD_MAPPING = {
+    "dc.identifier.doi": "doi",
+    "dc.title": "title",
+    "dc.date.issued": "year",
+    "dc.identifier.uri": "url",
+    "dc.type.driver": "type_driver",
+    "iris.orcid.lastModifiedMillisecond": "last_update"
 }
 
 
+#Funzione utilizzata per recuperare il nome e il cognome dalla pagina dell'autore
+def extract_author_details(author_url):
+    response = requests.get(author_url)     #Richiesta HTTP della pagina
+
+    if response.status_code != 200:     #controllo che la richiesta sai andata a buon fine
+        return None
+
+    soup = BeautifulSoup(response.text, "html.parser")      #Parsing HTML della pagina
+
+    name_tag = soup.find("p", id="displayValue")
+
+    if not name_tag:
+        return None
+
+    full_name = name_tag.get_text(strip=True)       #recupero nome e cognome
+
+    #Divido il nome completo usando la virgola come separatore.
+    #Il parametro 1 indica di effettuare al massimo una divisione,
+    #quindi otteniamo sempre al massimo due parti: cognome e nome.
+    parts = full_name.split(",", 1)
+
+
+    #Se la divisione ha prodotto due elementi, significa che il formato è:
+    #"COGNOME, NOME"
+    if len(parts) == 2:
+        #La prima parte contiene il cognome
+        #strip() rimuove eventuali spazi vuoti
+        #title() converte il testo in formato Nome Cognome (es. MALTAGLIATI -> Maltagliati)
+        surname = parts[0].strip().title()
+
+        #La seconda parte contiene il nome
+        name = parts[1].strip().title()
+    else:
+        #Se non c'è la virgola, non è possibile separare nome e cognome.
+        #Salvo comunque il valore completo come cognome
+        #e imposto il nome a None.
+        surname = full_name.title()
+        name = None
+
+    return {
+        "name": name,
+        "surname": surname
+    }
+
+
+#Questa funziona recupera id, nome e cognome degli autori e li restituisce
+def extract_authors(authors_links):
+
+    authors_list = []
+
+    for author in authors_links:
+
+        href = author.get("href")
+
+        if not href:
+            continue
+
+        author_id = href.split("/")[-1]     #recupero l'id
+
+        details = extract_author_details("https://boa.unimib.it" + href)        #chiamo una funzione per recuperare il nome ed il cognome
+
+        authors_list.append({
+            "id": author_id,
+            "name": details["name"],
+            "surname": details["surname"]
+        })
+
+    return authors_list
+
+#Funzione utilizzata per l'estrazione dell'handle
 def extract_handle(div):
 
     handle_link = div.find("code").get_text(strip=True) if div and div.find("code") else None
@@ -65,71 +121,133 @@ def extract_handle(div):
 #in base all'Handle e al metadato della pubblicazione "iris.orcid.lastModifiedMillisecond"
 def upsert_publication(data, pub):
 
-    
-    # Dizionario che conterrà i dati della singola pubblicazione
-    pub_dict = {}
+    #Dizionario che conterrà i dati della singola pubblicazione
+    pub_dict = {
+        "handle": None,
+        "title": None,
+        "doi": None,
+        "year": None,
+        "authors": [],
+        "type": None,
+        "type_driver": None,
+        "venue": None,
+        "url": None,
+        "keywords": [],
+        "last_update": None
+    }
 
-    metadati_pubblicazione = set()
 
-    #Ricerca del blocco HTML che il linki handle
+    #Ricerca del blocco HTML che contiene l'handle
     div = pub.find("div", class_="accordion-body")
 
     handle = extract_handle(div)
 
-    
-    # se non c'è handle, salta
+    #se non c'è handle, salta
     if not handle:
         return data
     
     #Inserisco l'handle nel dizionario
     pub_dict["handle"] = handle
-    
-    #estraggo la tabella che contiene i metadati della publicazione
-    table = pub.find("table", class_ = "card-body table itemDisplayTable")
+
+
+    #Estraggo la tabella che contiene i metadati della pubblicazione
+    table = pub.find("table", class_="card-body table itemDisplayTable")
+
+    if not table:
+        return data
+
+
+    #Controllo che la pubblicazione sia di tipo 01 o 02
+    field = table.find("td", string="dc.type")
+    if field:
+        value = field.find_next_sibling("td").get_text(strip=True)
+
+        #salvo il tipo
+        pub_dict["type"] = value
+
+        #Se non é nessunaq delle due viene fatto il reutnr e non viene aggiunto niente,
+        #se invece si tratta del tipo 1 o 2 viene aggiunto al dizionario, e viene anche aggiunto il neue
+        #in base al tipo di pubblicazione, diverso per i due tipi
+        if value == "Intervento su rivista":
+            pub_dict["type"] = value
+
+            field_vanue = table.find("td", string="dc.authority.ancejournal")
+            pub_dict["venue"] = field_vanue.find_next_sibling("td").get_text(strip=True)
+        elif value == "Intervento a convegno":
+            pub_dict["type"] = value
+
+            field_vanue = table.find("td", string="dc.relation.conferencename")
+            pub_dict["venue"] = field_vanue.find_next_sibling("td").get_text(strip=True)
+        
+        else:
+            print("skipping..", end=" ")
+            return data
+
+    else:
+        print("skipping..", end=" ")
+        return data
+
+    #Gli autori vengono trattati in modo diverso, poichè non si trova nella table ma viene fatto uno scraping aggiuntivo
+    author_links = pub.find_all("a", class_="authority author")
+    pub_dict["authors"] = extract_authors(author_links)
+
     metadata_rows = table.find_all("tr")
 
-    #for utilizzato per estrarre riga per riga tutti i metadati
+
+    #Scorro tutti i metadati della tabella
     for tr in metadata_rows:
+
         label_td = tr.find("td", class_="metadataFieldLabel")
         value_td = tr.find("td", class_="metadataFieldValue")
+
 
         #se manca la label o il valore salto la riga
         if not label_td or not value_td:
             continue
-        
 
-        #Estraggo la chiave del metadato
+
         key = label_td.get_text(strip=True)
-        #Estraggo il valore del metadato
         value = value_td.get_text(strip=True)
-    
-        #Se la chiave rientra nelle chiavi che prevedono piu' di un valore li salvo in una lsita
-        if key in multi_fields:
-            pub_dict.setdefault(key, []).append(value)
-        else:
-            pub_dict[key] = value
 
-    #Estraggo l'ultimo aggiornamento dalla pubblicazione appena recuperata dal sito in millisecondi
-    pub_last_update = int(pub_dict.get("iris.orcid.lastModifiedMillisecond", 0))    
+        #Questa if particolare serve per il campo keyword per creare una lista di keyword ad ogni passaggio del for
+        if key == "dc.subject.singlekeyword":
+            pub_dict["keywords"].append(value)
 
-    for i, p in enumerate(data):    #Scorro le pubblicazioni con indice per poterle eventualmente aggiornare nella lista
+        elif key in FIELD_MAPPING:
+            #Se il metadato trovato nella pagina IRIS è presente nel mapping,
+            #salvo il valore nel dizionario finale usando il nome della chiave
+            pub_dict[FIELD_MAPPING[key]] = value
+
+
+
+    #Estraggo l'ultimo aggiornamento della pubblicazione
+    pub_last_update = int(pub_dict.get("last_update") or 0)
+
+
+
+    #Controllo se la pubblicazione esiste già
+    for i, p in enumerate(data):
+
         if p["handle"] == handle:
-            #Estraggo la data dell'ultimo aggiornamento della stessa pubblicazione aggiornata all'ultima esecuzione dello script
-            old_last = int(p.get("iris.orcid.lastModifiedMillisecond", 0))
 
-            #Se la pubblicazione non è stata aggiornata rispetto alla versione salvata, non faccio nulla
-            if pub_last_update <= old_last:     
-                print("not updating..", end = " ")
+            old_last = int(p.get("last_update") or 0)
+
+
+            #Se non è cambiata non faccio nulla
+            if pub_last_update <= old_last:
+                print("not updating..", end=" ")
                 return data
 
-            
-            #Se è cambiata sovrascrivo
-            print("updating..", end = " ")
+
+            #Se è cambiata aggiorno
+            print("updating..", end=" ")
             data[i] = pub_dict
             return data
 
-    
-    #Aggiungo la pubblicazione a data e lo ritorno
+
+
+    #Pubblicazione nuova
+    print("adding..", end=" ")
     data.append(pub_dict)
 
     return data
@@ -176,6 +294,8 @@ def sync_pubblication():
 
         #Richiesta HTTP della pagina
         response = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+        if response.status_code != 200:     #controllo che la richiesta sai andata a buon fine
+            return None
         response.raise_for_status()
 
         #Parsing HTML della pagina
