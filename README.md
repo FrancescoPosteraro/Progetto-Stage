@@ -1,2 +1,6 @@
-Lo script é contenuto nel file web_scraper.py e publications.json é l'output dello script.
-Lo script seconds.py serve solo a calcolare la media del tempo impiegato da web_scraper.py per la creazione del file json, seconds.txt contiene i secondi impiegati ad ogni esecuzione
+Lo script é contenuto nel file "web_scraper.py" e "publications.json" é l'output dello script.
+Lo script "seconds.py" serve solo a calcolare la media del tempo impiegato da "web_scraper.py" per la creazione del file json, "seconds.txt" contiene i secondi impiegati ad ogni esecuzione
+"analyze_metadate.py", "dati_count.py" e "occurance_metadata.py" sono script utilizzati per l'analisi sei dati. "dati_occurance.json" é l'output di "dati_count.py".
+"web_scraper_th.py" é identico a "web_scraper.py", divergono solo per l'utilizzo del multi threading.
+La sotto cartella "Progetto-Stage\Extra" contiene tutti file extra per lo sviluppo del progetto, la sotto cartella "Progetto-Stage\Extra\Appunti_Metadati" contiene file di appunti sui metadati.
+Il file "web_scraper.py" esegue scraping sul sito IRIS BOA, sulle pubblicazioni in cui appare la professoressa Daniela Micucci, e recupera solo pubblicazioni di tipo 1 (articoli su rivista) e di tipo 2 (intervento a convegno), recuperando i metadati utili allo scopo finale del progetto in un formato standard nel file "publications.json".
