@@ -1,6 +1,8 @@
-Lo script é contenuto nel file "web_scraper.py" e "publications.json" é l'output dello script.
-Lo script "seconds.py" serve solo a calcolare la media del tempo impiegato da "web_scraper.py" per la creazione del file json, "seconds.txt" contiene i secondi impiegati ad ogni esecuzione
-"analyze_metadate.py", "dati_count.py" e "occurance_metadata.py" sono script utilizzati per l'analisi sei dati. "dati_occurance.json" é l'output di "dati_count.py".
-"web_scraper_th.py" é identico a "web_scraper.py", divergono solo per l'utilizzo del multi threading.
-La sotto cartella "Progetto-Stage\Extra" contiene tutti file extra per lo sviluppo del progetto, la sotto cartella "Progetto-Stage\Extra\Appunti_Metadati" contiene file di appunti sui metadati.
-Il file "web_scraper.py" esegue scraping sul sito IRIS BOA, sulle pubblicazioni in cui appare la professoressa Daniela Micucci, e recupera solo pubblicazioni di tipo 1 (articoli su rivista) e di tipo 2 (intervento a convegno), recuperando i metadati utili allo scopo finale del progetto in un formato standard nel file "publications.json".
+Per il funzionamento di tutto il progetto basta avviare il file "web_scraper.py".
+Con questo file verranno prelevati dati dal sito web IRIS BOA, inoltre verrà gestito il file publication.json insieme al database(tramite database_manager.py).
+
+La sottocartella Extra contiene file utilizzati per lo studio dei metadati delle pubblicazioni e script aggiuntivi dedicati all'analisi delle performance dello script principale.
+
+La sottocartella database contiene i file relativi alla gestione del database, tra cui il file principale database_manager.py, alcuni script per i test e il diagramma della struttura del database.
+
+Il file schema.sql contiene gli script SQL necessari alla creazione del database e delle relative tabelle.

@@ -1,6 +1,6 @@
 """
 ========================================================
-PROGETTO: Web Scraper
+Nome File: web_scraper.py
 AUTORE: Francesco Posteraro
 DESCRIZIONE:
 Script per recupero dati dal sito Iris Boa, 
@@ -9,6 +9,7 @@ traduzione dei dati in file json
 ========================================================
 """
 
+from database import database_manager
 from bs4 import BeautifulSoup   #Libreria per il parsing di HMTL, utilizzato per estrarre dati dalla pagina web
 import requests, webbrowser, json, os, time
 from urllib.parse import urlparse, parse_qs
@@ -218,7 +219,13 @@ def upsert_publication(data, pub):
             #salvo il valore nel dizionario finale usando il nome della chiave
             pub_dict[FIELD_MAPPING[key]] = value
 
+    #normalizzazione delle keyword
+    pub_dict["keywords"] = list(set(
+        keyword.strip().lower()
+        for keyword in pub_dict["keywords"]
+    ))
 
+    database_manager.sync_database(pub_dict)
 
     #Estraggo l'ultimo aggiornamento della pubblicazione
     pub_last_update = int(pub_dict.get("last_update") or 0)
@@ -293,7 +300,7 @@ def sync_pubblication():
         )
 
         #Richiesta HTTP della pagina
-        response = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+        response = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
         if response.status_code != 200:     #controllo che la richiesta sai andata a buon fine
             return None
         response.raise_for_status()
@@ -334,7 +341,7 @@ def sync_pubblication():
 
 
             #scarico pagina della singola pubblicazione
-            response = requests.get(pub_url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+            response = requests.get(pub_url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
             response.raise_for_status()
 
             #Parsing HTML della pubblicazione
@@ -344,7 +351,7 @@ def sync_pubblication():
             data = upsert_publication(data, soup)
 
             #Print usato per visualizzare la progressione della creazione
-            print(count)
+            print(f"{count}\n")
 
             count += 1
             tr += 1     #aumento count per passare alla riga successiva

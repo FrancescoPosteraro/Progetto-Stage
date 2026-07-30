@@ -26,10 +26,10 @@
         "venue": "Computational Science and Its Applications – ICCSA 2025 Workshops - June 30 – July 3, 2025",
         "url": "https://hdl.handle.net/10281/560567",
         "keywords": [
-            "Customized Wayfinding",
-            "Interactive Data Visualization",
-            "Planning",
-            "Routing"
+            "interactive data visualization",
+            "customized wayfinding",
+            "planning",
+            "routing"
         ],
         "last_update": "1767759084736"
     },
@@ -75,11 +75,11 @@
         "venue": "34th European Congress of Psychiatry - 28 – 31 March 2026",
         "url": "https://hdl.handle.net/10281/599821",
         "keywords": [
-            "Web-based intervention",
-            "app",
+            "suicide risk",
             "treatment",
+            "app",
             "psychiatric patients",
-            "suicide risk"
+            "web-based intervention"
         ],
         "last_update": "1782193007069"
     },
@@ -110,116 +110,13 @@
         "venue": "ICIAP 2025 23rd International Conference - September 15–19, 2025",
         "url": "https://hdl.handle.net/10281/588561",
         "keywords": [
-            "Brain-computer interface",
-            "Consumer device",
-            "Electroencephalography",
-            "Motor imagery",
-            "Neural networks"
+            "neural networks",
+            "electroencephalography",
+            "motor imagery",
+            "brain-computer interface",
+            "consumer device"
         ],
         "last_update": "1781328349984"
-    },
-    {
-        "handle": "562183",
-        "title": "How Low-Code Platforms Support Process Digital Twins",
-        "doi": null,
-        "year": "2025",
-        "authors": [
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp121707",
-                "name": "Maria Teresa",
-                "surname": "Rossi"
-            },
-            {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2025)",
-        "url": "https://hdl.handle.net/10281/562183",
-        "keywords": [
-            "Process Digital Twins",
-            "Low-code Development Platforms",
-            "Real-time Data Integration",
-            "Process Modeling"
-        ],
-        "last_update": "1770363022343"
-    },
-    {
-        "handle": "562185",
-        "title": "WizRD: An Interactive Data Analysis Platform for Urban Environments",
-        "doi": null,
-        "year": "2025",
-        "authors": [
-            {
-                "id": "rp59053",
-                "name": "Jacopo",
-                "surname": "Maltagliati"
-            },
-            {
-                "id": "rp05223",
-                "name": "Alberto Ottavio",
-                "surname": "Leporati"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2025)",
-        "url": "https://hdl.handle.net/10281/562185",
-        "keywords": [
-            "rban Planning",
-            "Context‑Aware Services",
-            "Data Visualization"
-        ],
-        "last_update": "1762700936335"
-    },
-    {
-        "handle": "562184",
-        "title": "Smart Health Workflows: Integrating FHIR Standard with BPMN Process Models",
-        "doi": null,
-        "year": "2025",
-        "authors": [
-            {
-                "id": "rp64065",
-                "name": "Federico",
-                "surname": "Bergamini"
-            },
-            {
-                "id": "rp59085",
-                "name": "Giovanni Donato",
-                "surname": "Gallo"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2025)",
-        "url": "https://hdl.handle.net/10281/562184",
-        "keywords": [
-            "healthcare",
-            "FHIR",
-            "BPMN",
-            "configurability",
-            "interoperability",
-            "automation"
-        ],
-        "last_update": "1753691131961"
     },
     {
         "handle": "560131",
@@ -248,11 +145,11 @@
         "venue": "Intelligent Environments (IE) - International Workshop on Intelligent Environments Supporting Healthcare and Well-being (WISHWell)",
         "url": "https://hdl.handle.net/10281/560131",
         "keywords": [
-            "Remote patient monitoring",
-            "IoMT",
+            "remote patient monitoring",
+            "iomt",
             "interoperability",
-            "HL7 FHIR",
-            "security and compliance"
+            "security and compliance",
+            "hl7 fhir"
         ],
         "last_update": "1751610873739"
     },
@@ -283,27 +180,22 @@
         "venue": "37th IEEE/ACM International Conference on Software Engineering Education and Training, CSEE and T 2025 - 27 April 2025 - 03 May 2025",
         "url": "https://hdl.handle.net/10281/560130",
         "keywords": [
-            "Empirical Study",
-            "Large Language Models for Software Engineering",
-            "Software Engineering Education"
+            "empirical study",
+            "software engineering education",
+            "large language models for software engineering"
         ],
         "last_update": "1762228665996"
     },
     {
-        "handle": "588562",
-        "title": "Towards the Assessment of Task-based Chatbots: From the TOFU-R Snapshot to the BRASATO Curated Dataset",
-        "doi": "10.1109/issre66568.2025.00060",
+        "handle": "561182",
+        "title": "On the Possibility of Breaking Copyleft Licenses When Reusing Code Generated by ChatGPT",
+        "doi": "10.1109/ICPC66645.2025.00060",
         "year": "2025",
         "authors": [
             {
-                "id": "rp75127",
-                "name": "Elena",
-                "surname": "Masserini"
-            },
-            {
-                "id": "rp20627",
-                "name": "Diego",
-                "surname": "Clerissi"
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
             },
             {
                 "id": "rp02409",
@@ -311,55 +203,21 @@
                 "surname": "Micucci"
             },
             {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
+                "id": "rp05726",
+                "name": "Oliviero",
+                "surname": "Riganelli"
             }
         ],
         "type": "Intervento a convegno",
         "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "IEEE International Symposium on Software Reliability Engineering (ISSRE) - 21-24 October 2025",
-        "url": "https://hdl.handle.net/10281/588562",
+        "venue": "33rd IEEE/ACM International Conference on Program Comprehension, ICPC 2025 - 27-28 April 2025",
+        "url": "https://hdl.handle.net/10281/561182",
         "keywords": [
-            "Chatbot",
-            "ChatGPT",
-            "Dataset",
-            "GitHub",
-            "Rasa"
+            "code generation",
+            "ai-assisted coding",
+            "copyleft"
         ],
-        "last_update": "1770447035173"
-    },
-    {
-        "handle": "588567",
-        "title": "Bug Whispering: Towards Audio Bug Reporting",
-        "doi": "10.1109/issrew67781.2025.00055",
-        "year": "2025",
-        "authors": [
-            {
-                "id": "rp75127",
-                "name": "Elena",
-                "surname": "Masserini"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "International Symposium on Software Reliability Engineering (ISSRE) - 21-21 October 2025",
-        "url": "https://hdl.handle.net/10281/588567",
-        "keywords": [
-            "audio bug reports",
-            "Bug reporting"
-        ],
-        "last_update": "1775974105140"
+        "last_update": "1763040730854"
     },
     {
         "handle": "561183",
@@ -393,25 +251,30 @@
         "venue": "33rd IEEE/ACM International Conference on Program Comprehension, ICPC 2025 - 27-28 April 2025",
         "url": "https://hdl.handle.net/10281/561183",
         "keywords": [
-            "ChatGPT",
+            "llms",
             "code generation",
-            "LLMs",
+            "top-p",
             "repetitions",
             "temperature",
-            "top-p"
+            "chatgpt"
         ],
         "last_update": "1763040557555"
     },
     {
-        "handle": "561182",
-        "title": "On the Possibility of Breaking Copyleft Licenses When Reusing Code Generated by ChatGPT",
-        "doi": "10.1109/ICPC66645.2025.00060",
+        "handle": "588562",
+        "title": "Towards the Assessment of Task-based Chatbots: From the TOFU-R Snapshot to the BRASATO Curated Dataset",
+        "doi": "10.1109/issre66568.2025.00060",
         "year": "2025",
         "authors": [
             {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
+                "id": "rp75127",
+                "name": "Elena",
+                "surname": "Masserini"
+            },
+            {
+                "id": "rp20627",
+                "name": "Diego",
+                "surname": "Clerissi"
             },
             {
                 "id": "rp02409",
@@ -419,21 +282,23 @@
                 "surname": "Micucci"
             },
             {
-                "id": "rp05726",
-                "name": "Oliviero",
-                "surname": "Riganelli"
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
             }
         ],
         "type": "Intervento a convegno",
         "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "33rd IEEE/ACM International Conference on Program Comprehension, ICPC 2025 - 27-28 April 2025",
-        "url": "https://hdl.handle.net/10281/561182",
+        "venue": "IEEE International Symposium on Software Reliability Engineering (ISSRE) - 21-24 October 2025",
+        "url": "https://hdl.handle.net/10281/588562",
         "keywords": [
-            "AI-assisted coding",
-            "code generation",
-            "copyleft"
+            "rasa",
+            "github",
+            "dataset",
+            "chatbot",
+            "chatgpt"
         ],
-        "last_update": "1763040730854"
+        "last_update": "1770447035173"
     },
     {
         "handle": "562186",
@@ -467,12 +332,147 @@
         "venue": "33rd ACM International Conference on the Foundations of Software Engineering, FSE Companion 2025 - 23 June 2025 - 27 June 2025",
         "url": "https://hdl.handle.net/10281/562186",
         "keywords": [
-            "AI-Agents",
-            "IDE",
-            "Multi LLM",
-            "VSCode"
+            "vscode",
+            "ai-agents",
+            "ide",
+            "multi llm"
         ],
         "last_update": "1769053371713"
+    },
+    {
+        "handle": "588567",
+        "title": "Bug Whispering: Towards Audio Bug Reporting",
+        "doi": "10.1109/issrew67781.2025.00055",
+        "year": "2025",
+        "authors": [
+            {
+                "id": "rp75127",
+                "name": "Elena",
+                "surname": "Masserini"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "International Symposium on Software Reliability Engineering (ISSRE) - 21-21 October 2025",
+        "url": "https://hdl.handle.net/10281/588567",
+        "keywords": [
+            "audio bug reports",
+            "bug reporting"
+        ],
+        "last_update": "1775974105140"
+    },
+    {
+        "handle": "562183",
+        "title": "How Low-Code Platforms Support Process Digital Twins",
+        "doi": null,
+        "year": "2025",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp121707",
+                "name": "Maria Teresa",
+                "surname": "Rossi"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2025)",
+        "url": "https://hdl.handle.net/10281/562183",
+        "keywords": [
+            "process modeling",
+            "real-time data integration",
+            "low-code development platforms",
+            "process digital twins"
+        ],
+        "last_update": "1770363022343"
+    },
+    {
+        "handle": "562185",
+        "title": "WizRD: An Interactive Data Analysis Platform for Urban Environments",
+        "doi": null,
+        "year": "2025",
+        "authors": [
+            {
+                "id": "rp59053",
+                "name": "Jacopo",
+                "surname": "Maltagliati"
+            },
+            {
+                "id": "rp05223",
+                "name": "Alberto Ottavio",
+                "surname": "Leporati"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2025)",
+        "url": "https://hdl.handle.net/10281/562185",
+        "keywords": [
+            "data visualization",
+            "context‑aware services",
+            "rban planning"
+        ],
+        "last_update": "1762700936335"
+    },
+    {
+        "handle": "562184",
+        "title": "Smart Health Workflows: Integrating FHIR Standard with BPMN Process Models",
+        "doi": null,
+        "year": "2025",
+        "authors": [
+            {
+                "id": "rp64065",
+                "name": "Federico",
+                "surname": "Bergamini"
+            },
+            {
+                "id": "rp59085",
+                "name": "Giovanni Donato",
+                "surname": "Gallo"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2025)",
+        "url": "https://hdl.handle.net/10281/562184",
+        "keywords": [
+            "bpmn",
+            "healthcare",
+            "automation",
+            "fhir",
+            "configurability",
+            "interoperability"
+        ],
+        "last_update": "1753691131961"
     },
     {
         "handle": "588563",
@@ -506,10 +506,10 @@
         "venue": "International Symposium on Software Reliability Engineering (ISSRE) - 21-21 October 2025",
         "url": "https://hdl.handle.net/10281/588563",
         "keywords": [
-            "Chatbot",
-            "Mutation",
-            "Rasa",
-            "Testing"
+            "testing",
+            "rasa",
+            "chatbot",
+            "mutation"
         ],
         "last_update": "1775789255395"
     },
@@ -550,12 +550,134 @@
         "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2024)",
         "url": "https://hdl.handle.net/10281/562182",
         "keywords": [
-            "Littering",
-            "Waste Management",
-            "Federated Learning",
-            "Computer Vision"
+            "computer vision",
+            "waste management",
+            "federated learning",
+            "littering"
         ],
         "last_update": "1753691349879"
+    },
+    {
+        "handle": "536281",
+        "title": "EEG Acquisition and Motor Imagery Classification for Robotic Control",
+        "doi": "10.1109/EMBC53108.2024.10782723",
+        "year": "2024",
+        "authors": [
+            {
+                "id": "rp26048",
+                "name": "Hamza",
+                "surname": "Amrani"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, EMBC 2024 - 15-19 July 2024",
+        "url": "https://hdl.handle.net/10281/536281",
+        "keywords": [
+            "robotic control",
+            "brain-computer interface",
+            "machine learning",
+            "electroencephalography"
+        ],
+        "last_update": "1737949814527"
+    },
+    {
+        "handle": "490719",
+        "title": "Generating Java Methods: An Empirical Assessment of Four AI-Based Code Assistants",
+        "doi": "10.1145/3643916.3644402",
+        "year": "2024",
+        "authors": [
+            {
+                "id": "rp85833",
+                "name": "Vincenzo",
+                "surname": "Corso"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp05726",
+                "name": "Oliviero",
+                "surname": "Riganelli"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "32nd IEEE/ACM International Conference on Program Comprehension, ICPC 2024 - 15 April 2024 through 16 April 2024",
+        "url": "https://hdl.handle.net/10281/490719",
+        "keywords": [
+            "empirical study",
+            "bard",
+            "tabnine",
+            "ai-based code assistants",
+            "code completion",
+            "copilot",
+            "chatgpt"
+        ],
+        "last_update": "1725333148190"
+    },
+    {
+        "handle": "548010",
+        "title": "COBOL: COmmunity-Based Organized Littering",
+        "doi": "10.1109/SEAA64295.2024.00084",
+        "year": "2024",
+        "authors": [
+            {
+                "id": "rp03937",
+                "name": "Simone",
+                "surname": "Bianco"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp121707",
+                "name": "Maria Teresa",
+                "surname": "Rossi"
+            },
+            {
+                "id": "rp04027",
+                "name": "Raimondo",
+                "surname": "Schettini"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "50th Euromicro Conference on Software Engineering and Advanced Applications - 28-30 August 2024",
+        "url": "https://hdl.handle.net/10281/548010",
+        "keywords": [
+            "computer vision",
+            "waste removal",
+            "model-driven engineering",
+            "crowdsourcing",
+            "federated learning",
+            "waste detection"
+        ],
+        "last_update": "1743400127465"
     },
     {
         "handle": "514399",
@@ -604,13 +726,51 @@
         "venue": "Convegno Internazionale di Suicidologia e Salute Pubblica",
         "url": "https://hdl.handle.net/10281/514399",
         "keywords": [
-            "Suicide prevention",
-            "Digital interventions",
-            "Apps",
-            "Web-based interventions",
-            "Post-discharge"
+            "apps",
+            "web-based interventions",
+            "post-discharge",
+            "digital interventions",
+            "suicide prevention"
         ],
         "last_update": "1727073036732"
+    },
+    {
+        "handle": "490720",
+        "title": "Analyzing Prompt Influence on Automated Method Generation: An Empirical Study with Copilot",
+        "doi": "10.1145/3643916.3644409",
+        "year": "2024",
+        "authors": [
+            {
+                "id": "rp83573",
+                "name": "Ionut Daniel",
+                "surname": "Fagadau"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp05726",
+                "name": "Oliviero",
+                "surname": "Riganelli"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "ICPC '24: 32nd IEEE/ACM International Conference on Program Comprehension - April 15 - 16, 2024",
+        "url": "https://hdl.handle.net/10281/490720",
+        "keywords": [
+            "prompt engineering",
+            "code generation",
+            "copilot"
+        ],
+        "last_update": "1725383253099"
     },
     {
         "handle": "535101",
@@ -640,87 +800,11 @@
         "url": "https://hdl.handle.net/10281/535101",
         "keywords": [
             "digital process twin",
-            "littering",
-            "MDE",
-            "sustainability"
+            "sustainability",
+            "mde",
+            "littering"
         ],
         "last_update": "1737690020850"
-    },
-    {
-        "handle": "490719",
-        "title": "Generating Java Methods: An Empirical Assessment of Four AI-Based Code Assistants",
-        "doi": "10.1145/3643916.3644402",
-        "year": "2024",
-        "authors": [
-            {
-                "id": "rp85833",
-                "name": "Vincenzo",
-                "surname": "Corso"
-            },
-            {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp05726",
-                "name": "Oliviero",
-                "surname": "Riganelli"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "32nd IEEE/ACM International Conference on Program Comprehension, ICPC 2024 - 15 April 2024 through 16 April 2024",
-        "url": "https://hdl.handle.net/10281/490719",
-        "keywords": [
-            "AI-based code assistants",
-            "Bard",
-            "ChatGPT",
-            "code completion",
-            "Copilot",
-            "empirical study",
-            "Tabnine"
-        ],
-        "last_update": "1725333148190"
-    },
-    {
-        "handle": "536281",
-        "title": "EEG Acquisition and Motor Imagery Classification for Robotic Control",
-        "doi": "10.1109/EMBC53108.2024.10782723",
-        "year": "2024",
-        "authors": [
-            {
-                "id": "rp26048",
-                "name": "Hamza",
-                "surname": "Amrani"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp00482",
-                "name": "Paolo",
-                "surname": "Napoletano"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, EMBC 2024 - 15-19 July 2024",
-        "url": "https://hdl.handle.net/10281/536281",
-        "keywords": [
-            "Brain-computer interface",
-            "Electroencephalography",
-            "Machine learning",
-            "Robotic control"
-        ],
-        "last_update": "1737949814527"
     },
     {
         "handle": "490359",
@@ -759,13 +843,13 @@
         "venue": "5th ACM/IEEE International Conference on Automation of Software Test, AST 2024, co-located with the 46th International Conference on Software Engineering, ICSE 2024 - 15 April 2024 through 16 April 2024",
         "url": "https://hdl.handle.net/10281/490359",
         "keywords": [
-            "bug reproduction",
             "data anonymization",
-            "debugging",
             "mobile applications",
             "privacy",
-            "privacy-preserving",
-            "testing"
+            "debugging",
+            "testing",
+            "bug reproduction",
+            "privacy-preserving"
         ],
         "last_update": "1748327192413"
     },
@@ -801,129 +885,11 @@
         "venue": "46th International Conference on Software Engineering: Companion, ICSE-Companion 2024 - 14 April 2024 through 20 April 2024",
         "url": "https://hdl.handle.net/10281/490700",
         "keywords": [
-            "AI-based code assistants",
+            "empirical study",
             "code completion",
-            "empirical study"
+            "ai-based code assistants"
         ],
         "last_update": "1748327252849"
-    },
-    {
-        "handle": "490720",
-        "title": "Analyzing Prompt Influence on Automated Method Generation: An Empirical Study with Copilot",
-        "doi": "10.1145/3643916.3644409",
-        "year": "2024",
-        "authors": [
-            {
-                "id": "rp83573",
-                "name": "Ionut Daniel",
-                "surname": "Fagadau"
-            },
-            {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp05726",
-                "name": "Oliviero",
-                "surname": "Riganelli"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "ICPC '24: 32nd IEEE/ACM International Conference on Program Comprehension - April 15 - 16, 2024",
-        "url": "https://hdl.handle.net/10281/490720",
-        "keywords": [
-            "code generation",
-            "Copilot",
-            "Prompt engineering"
-        ],
-        "last_update": "1725383253099"
-    },
-    {
-        "handle": "548010",
-        "title": "COBOL: COmmunity-Based Organized Littering",
-        "doi": "10.1109/SEAA64295.2024.00084",
-        "year": "2024",
-        "authors": [
-            {
-                "id": "rp03937",
-                "name": "Simone",
-                "surname": "Bianco"
-            },
-            {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp121707",
-                "name": "Maria Teresa",
-                "surname": "Rossi"
-            },
-            {
-                "id": "rp04027",
-                "name": "Raimondo",
-                "surname": "Schettini"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "50th Euromicro Conference on Software Engineering and Advanced Applications - 28-30 August 2024",
-        "url": "https://hdl.handle.net/10281/548010",
-        "keywords": [
-            "computer vision",
-            "crowdsourcing",
-            "federated learning",
-            "model-driven engineering",
-            "waste detection",
-            "waste removal"
-        ],
-        "last_update": "1743400127465"
-    },
-    {
-        "handle": "562181",
-        "title": "Streamlining Data Collection: A Platform Supporting the Design of Acquisition Protocols of Brain Signals",
-        "doi": null,
-        "year": "2023",
-        "authors": [
-            {
-                "id": "rp26048",
-                "name": "Hamza",
-                "surname": "Amrani"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp00482",
-                "name": "Paolo",
-                "surname": "Napoletano"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2023)",
-        "url": "https://hdl.handle.net/10281/562181",
-        "keywords": [
-            "brain-computer interfaces",
-            "biological signals",
-            "customizable protocols",
-            "data collection platform"
-        ],
-        "last_update": "1753691448190"
     },
     {
         "handle": "454288",
@@ -957,12 +923,49 @@
         "venue": "2023 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems, MODELS-C 2023 - 1 October 2023 through 6 October 2023",
         "url": "https://hdl.handle.net/10281/454288",
         "keywords": [
-            "Internet of Things",
-            "Model-Based Testing",
-            "Model-Driven Engineering",
-            "Software Analysis"
+            "model-based testing",
+            "software analysis",
+            "internet of things",
+            "model-driven engineering"
         ],
         "last_update": "1709612877098"
+    },
+    {
+        "handle": "462798",
+        "title": "Emotion Personalization with Machine Learning using EEG Signals and Dry Electrodes",
+        "doi": "10.1109/metroxraine58569.2023.10405681",
+        "year": "2023",
+        "authors": [
+            {
+                "id": "rp26048",
+                "name": "Hamza",
+                "surname": "Amrani"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "IEEE International Conference on Metrology for eXtended Reality, Artificial Intelligence and Neural Engineering, MetroXRAINE 2023 - 25-27 October 2023",
+        "url": "https://hdl.handle.net/10281/462798",
+        "keywords": [
+            "personalization",
+            "incremental learning",
+            "electroencephalography",
+            "brain-computer interface",
+            "emotion",
+            "machine learning",
+            "dry electrodes"
+        ],
+        "last_update": "1743412569301"
     },
     {
         "handle": "407757",
@@ -1017,15 +1020,15 @@
         "url": "https://hdl.handle.net/10281/407757",
         "keywords": [
             "cognitive-behavioral treatment",
-            "internet-based intervention",
-            "university students"
+            "university students",
+            "internet-based intervention"
         ],
         "last_update": "1757339120674"
     },
     {
-        "handle": "462798",
-        "title": "Emotion Personalization with Machine Learning using EEG Signals and Dry Electrodes",
-        "doi": "10.1109/metroxraine58569.2023.10405681",
+        "handle": "562181",
+        "title": "Streamlining Data Collection: A Platform Supporting the Design of Acquisition Protocols of Brain Signals",
+        "doi": null,
         "year": "2023",
         "authors": [
             {
@@ -1046,18 +1049,15 @@
         ],
         "type": "Intervento a convegno",
         "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "IEEE International Conference on Metrology for eXtended Reality, Artificial Intelligence and Neural Engineering, MetroXRAINE 2023 - 25-27 October 2023",
-        "url": "https://hdl.handle.net/10281/462798",
+        "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2023)",
+        "url": "https://hdl.handle.net/10281/562181",
         "keywords": [
-            "Brain-computer Interface",
-            "Dry electrodes",
-            "Electroencephalography",
-            "Emotion",
-            "Incremental Learning",
-            "Machine Learning",
-            "Personalization"
+            "biological signals",
+            "customizable protocols",
+            "data collection platform",
+            "brain-computer interfaces"
         ],
-        "last_update": "1743412569301"
+        "last_update": "1753691448190"
     },
     {
         "handle": "398573",
@@ -1086,10 +1086,10 @@
         "venue": "12th IEEE International Conference on Consumer Electronics, ICCE-Berlin 2022 - 2 September 2022 through 6 September 2022",
         "url": "https://hdl.handle.net/10281/398573",
         "keywords": [
-            "AutoEncoder",
-            "Deep learning",
-            "Human Activity Recognition",
-            "Unsupervised learning"
+            "unsupervised learning",
+            "deep learning",
+            "human activity recognition",
+            "autoencoder"
         ],
         "last_update": "1685716914900"
     },
@@ -1120,10 +1120,10 @@
         "venue": "11th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation, ISoLA 2022 - 22 October 2022 through 30 October 2022",
         "url": "http://hdl.handle.net/10281/395079",
         "keywords": [
-            "Android apps",
-            "Non-functional testing",
-            "Runtime enforcement",
-            "Testing enforcers"
+            "android apps",
+            "runtime enforcement",
+            "non-functional testing",
+            "testing enforcers"
         ],
         "last_update": "1748925520958"
     },
@@ -1154,11 +1154,11 @@
         "venue": "44th ACM/IEEE International Conference on Software Engineering: Companion, ICSE-Companion 2022 - 22 May 2022 through 27 May 2022",
         "url": "http://hdl.handle.net/10281/394071",
         "keywords": [
-            "Android",
-            "API misuse",
-            "proactive library",
             "runtime enforcement",
-            "self-healing"
+            "android",
+            "self-healing",
+            "proactive library",
+            "api misuse"
         ],
         "last_update": "1732699256486"
     },
@@ -1194,7 +1194,7 @@
         "venue": "NeurIPS Data-Centric AI Workshop (DCAI 2021)",
         "url": "http://hdl.handle.net/10281/362099",
         "keywords": [
-            "Personalization",
+            "personalization",
             "deep learning",
             "human activity recognition"
         ],
@@ -1227,9 +1227,9 @@
         "venue": "International Conference on Pattern Recognition (ICPR)",
         "url": "http://hdl.handle.net/10281/304212",
         "keywords": [
-            "Deep learning",
-            "Human activity recognition",
-            "Personalization"
+            "personalization",
+            "deep learning",
+            "human activity recognition"
         ],
         "last_update": "1685716916391"
     },
@@ -1265,10 +1265,10 @@
         "venue": "21st International Conference on Software Quality, Reliability and Security, QRS 2021 - 6 December 2021 through 10 December 2021",
         "url": "http://hdl.handle.net/10281/362136",
         "keywords": [
-            "automatic program repair",
-            "exceptions",
             "fault localization",
-            "SBFL"
+            "exceptions",
+            "automatic program repair",
+            "sbfl"
         ],
         "last_update": "1685704464130"
     },
@@ -1299,88 +1299,14 @@
         "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2020)",
         "url": "http://hdl.handle.net/10281/362103",
         "keywords": [
+            "personalization",
             "human activity recognition",
-            "activity of daily living",
-            "machine learning",
             "deep learning",
+            "machine learning",
             "signals",
-            "personalization"
+            "activity of daily living"
         ],
         "last_update": "1685703478515"
-    },
-    {
-        "handle": "304206",
-        "title": "Personalized Deep Learning in Human Activity Recognition from Inertial Signals: a Preliminary Study on its Effectiveness",
-        "doi": null,
-        "year": "2020",
-        "authors": [
-            {
-                "id": "rp16444",
-                "name": "Anna",
-                "surname": "Ferrari"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp07032",
-                "name": "Marco",
-                "surname": "Mobilio"
-            },
-            {
-                "id": "rp00482",
-                "name": "Paolo",
-                "surname": "Napoletano"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "Italian Workshop on Artificial Intelligence for an Ageing Society 2020 co-located with 19th International Conference of the Italian Association for Artificial Intelligence (AIxIA 2020)",
-        "url": "http://hdl.handle.net/10281/304206",
-        "keywords": [
-            "Human activity recognition",
-            "personalization",
-            "ADL",
-            "machine learning",
-            "deep learning"
-        ],
-        "last_update": "1685686554230"
-    },
-    {
-        "handle": "293897",
-        "title": "Test4Enforcers: Test Case Generation for Software Enforcers",
-        "doi": "10.1007/978-3-030-60508-7_15",
-        "year": "2020",
-        "authors": [
-            {
-                "id": "rp05726",
-                "name": "Oliviero",
-                "surname": "Riganelli"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "20th International Conference on Runtime Verification, RV 2020 - 6 October 2020 through 9 October 2020",
-        "url": "http://hdl.handle.net/10281/293897",
-        "keywords": [
-            "Android apps",
-            "Runtime enforcement",
-            "Test case generation",
-            "Testing enforcers"
-        ],
-        "last_update": "1685689734884"
     },
     {
         "handle": "277010",
@@ -1414,16 +1340,11 @@
         "venue": "ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)",
         "url": "http://hdl.handle.net/10281/277010",
         "keywords": [
-            "Android",
-            "data loss",
             "mobile apps",
-            "test case generation",
             "validation",
-            "Android",
-            "data loss",
+            "android",
             "test case generation",
-            "validation",
-            "mobile apps"
+            "data loss"
         ],
         "last_update": "1750857993538"
     },
@@ -1459,11 +1380,85 @@
         "venue": "13th IEEE International Conference on Software Testing, Verification and Validation, ICST 2020 - 24-28 October 2020",
         "url": "https://hdl.handle.net/10281/269551",
         "keywords": [
-            "field monitoring",
             "logging",
+            "field monitoring",
             "tracing"
         ],
         "last_update": "1737617827550"
+    },
+    {
+        "handle": "293897",
+        "title": "Test4Enforcers: Test Case Generation for Software Enforcers",
+        "doi": "10.1007/978-3-030-60508-7_15",
+        "year": "2020",
+        "authors": [
+            {
+                "id": "rp05726",
+                "name": "Oliviero",
+                "surname": "Riganelli"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "20th International Conference on Runtime Verification, RV 2020 - 6 October 2020 through 9 October 2020",
+        "url": "http://hdl.handle.net/10281/293897",
+        "keywords": [
+            "android apps",
+            "runtime enforcement",
+            "testing enforcers",
+            "test case generation"
+        ],
+        "last_update": "1685689734884"
+    },
+    {
+        "handle": "304206",
+        "title": "Personalized Deep Learning in Human Activity Recognition from Inertial Signals: a Preliminary Study on its Effectiveness",
+        "doi": null,
+        "year": "2020",
+        "authors": [
+            {
+                "id": "rp16444",
+                "name": "Anna",
+                "surname": "Ferrari"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            },
+            {
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "Italian Workshop on Artificial Intelligence for an Ageing Society 2020 co-located with 19th International Conference of the Italian Association for Artificial Intelligence (AIxIA 2020)",
+        "url": "http://hdl.handle.net/10281/304206",
+        "keywords": [
+            "personalization",
+            "human activity recognition",
+            "adl",
+            "deep learning",
+            "machine learning"
+        ],
+        "last_update": "1685686554230"
     },
     {
         "handle": "281121",
@@ -1482,10 +1477,35 @@
         "venue": "The Official Journal of ATTD Advanced Technologies & Treatments for Diabetes Conference Madrid, Spain—February 19–22, 2020",
         "url": "http://hdl.handle.net/10281/281121",
         "keywords": [
-            "Diabetes",
-            "Furby"
+            "furby",
+            "diabetes"
         ],
         "last_update": "1685703885197"
+    },
+    {
+        "handle": "280778",
+        "title": "The house of carbs: Personalized carbohydrate dispenser for people with diabetes",
+        "doi": "10.3233/SHTI200249",
+        "year": "2020",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "30th Medical Informatics Europe (MIE) Conference APR, 2020",
+        "url": "http://hdl.handle.net/10281/280778",
+        "keywords": [
+            "cyber-physical systems",
+            "diabetes",
+            "carbohydrates",
+            "internet of things",
+            "hypoglycemia"
+        ],
+        "last_update": "1685696900121"
     },
     {
         "handle": "299755",
@@ -1519,37 +1539,12 @@
         "venue": "35th IEEE/ACM International Conference on Automated Software Engineering, ASE 2020 22-25 September",
         "url": "http://hdl.handle.net/10281/299755",
         "keywords": [
-            "Android",
-            "API upgrades",
-            "Debugging",
-            "Fault localization"
+            "api upgrades",
+            "debugging",
+            "fault localization",
+            "android"
         ],
         "last_update": "1685690248769"
-    },
-    {
-        "handle": "280778",
-        "title": "The house of carbs: Personalized carbohydrate dispenser for people with diabetes",
-        "doi": "10.3233/SHTI200249",
-        "year": "2020",
-        "authors": [
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "30th Medical Informatics Europe (MIE) Conference APR, 2020",
-        "url": "http://hdl.handle.net/10281/280778",
-        "keywords": [
-            "Carbohydrates",
-            "Cyber-Physical Systems",
-            "Diabetes",
-            "Hypoglycemia",
-            "Internet of Things"
-        ],
-        "last_update": "1685696900121"
     },
     {
         "handle": "253149",
@@ -1584,34 +1579,12 @@
         "url": "http://hdl.handle.net/10281/253149",
         "keywords": [
             "human activity recognition",
-            "integration",
+            "database",
             "platform",
             "dataset",
-            "database"
+            "integration"
         ],
         "last_update": "1685702972768"
-    },
-    {
-        "handle": "253157",
-        "title": "System for automatic estimation and delivery of quickly-absorbable carbohydrates",
-        "doi": "10.1089/dia.2019.2525.abstracts",
-        "year": "2019",
-        "authors": [
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "12 International conference on Advanced Technologies & Treatments for Diabetes",
-        "url": "http://hdl.handle.net/10281/253157",
-        "keywords": [
-            "diabetes",
-            "iot"
-        ],
-        "last_update": "1685693559705"
     },
     {
         "handle": "220386",
@@ -1640,89 +1613,51 @@
         "venue": "International Conference on Information Technology and Systems, ICITS 2019",
         "url": "http://hdl.handle.net/10281/220386",
         "keywords": [
-            "Architectural reflection",
-            "Self-adaptation",
-            "Self-management",
-            "Control and Systems Engineering",
-            "Computer Science (all)"
+            "control and systems engineering",
+            "architectural reflection",
+            "computer science (all)",
+            "self-adaptation",
+            "self-management"
         ],
         "last_update": "1685713990944"
     },
     {
-        "handle": "265202",
-        "title": "FILO: FIx-LOcus Recommendation for Problems Caused by Android Framework Upgrade",
-        "doi": "10.1109/ISSRE.2019.00043",
+        "handle": "253153",
+        "title": "On the homogenization of heterogeneous inertial-based databases for human activity recognition",
+        "doi": "10.1109/SERVICES.2019.00084",
         "year": "2019",
         "authors": [
+            {
+                "id": "rp16444",
+                "name": "Anna",
+                "surname": "Ferrari"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
             {
                 "id": "rp07032",
                 "name": "Marco",
                 "surname": "Mobilio"
             },
             {
-                "id": "rp05726",
-                "name": "Oliviero",
-                "surname": "Riganelli"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
             }
         ],
         "type": "Intervento a convegno",
         "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "30th IEEE International Symposium on Software Reliability Engineering, ISSRE 2019",
-        "url": "http://hdl.handle.net/10281/265202",
+        "venue": "IEEE SERVICES Workshop on Big Data for Public Health Policy co-located with the IEEE World Congress on Services, SERVICES 2019",
+        "url": "http://hdl.handle.net/10281/253153",
         "keywords": [
-            "Android",
-            "API Upgrades",
-            "Debugging"
+            "deep learning",
+            "human activity recognition",
+            "big labeled data"
         ],
-        "last_update": "1685725039805"
-    },
-    {
-        "handle": "255574",
-        "title": "Nudges Driven Networks: Towards More Acceptable Recommendations for Inducing Targeted Social Communities",
-        "doi": "10.1007/978-3-030-34770-3_30",
-        "year": "2019",
-        "authors": [
-            {
-                "id": "rp00722",
-                "name": "Italo Francesco",
-                "surname": "Zoppis"
-            },
-            {
-                "id": "rp05759",
-                "name": "Sara Lucia",
-                "surname": "Manzoni"
-            },
-            {
-                "id": "rp06798",
-                "name": "Giancarlo",
-                "surname": "Mauri"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "6th International Conference on Internet Science, INSCI 2019",
-        "url": "http://hdl.handle.net/10281/255574",
-        "keywords": [
-            "Nudge theory",
-            "Machine learning",
-            "SENIOR project"
-        ],
-        "last_update": "1685684311776"
+        "last_update": "1685717760296"
     },
     {
         "handle": "252728",
@@ -1756,14 +1691,10 @@
         "venue": "16th IEEE/ACM International Conference on Mining Software Repositories, MSR 2019",
         "url": "http://hdl.handle.net/10281/252728",
         "keywords": [
-            "Android",
-            "Benchmark",
-            "Bug detection",
-            "Data loss",
-            "Android",
-            "Benchmark",
-            "Bug detection",
-            "Data loss"
+            "benchmark",
+            "data loss",
+            "android",
+            "bug detection"
         ],
         "last_update": "1685698509795"
     },
@@ -1799,10 +1730,10 @@
         "venue": "European Conference on Ambient Intelligence, AmI 2019",
         "url": "http://hdl.handle.net/10281/255376",
         "keywords": [
-            "Deep learning",
-            "Human Activity Recognition",
-            "Inertial sensors",
-            "Machine learning"
+            "inertial sensors",
+            "deep learning",
+            "human activity recognition",
+            "machine learning"
         ],
         "last_update": "1685706616056"
     },
@@ -1839,25 +1770,90 @@
         "url": "http://hdl.handle.net/10281/253140",
         "keywords": [
             "dataset",
+            "adl",
             "deep learning",
-            "inertial data",
-            "integration platform",
-            "ADL",
+            "machine learning",
             "activity",
-            "machine learning"
+            "integration platform",
+            "inertial data"
         ],
         "last_update": "1772618006306"
     },
     {
-        "handle": "253153",
-        "title": "On the homogenization of heterogeneous inertial-based databases for human activity recognition",
-        "doi": "10.1109/SERVICES.2019.00084",
+        "handle": "253157",
+        "title": "System for automatic estimation and delivery of quickly-absorbable carbohydrates",
+        "doi": "10.1089/dia.2019.2525.abstracts",
         "year": "2019",
         "authors": [
             {
-                "id": "rp16444",
-                "name": "Anna",
-                "surname": "Ferrari"
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "12 International conference on Advanced Technologies & Treatments for Diabetes",
+        "url": "http://hdl.handle.net/10281/253157",
+        "keywords": [
+            "iot",
+            "diabetes"
+        ],
+        "last_update": "1685693559705"
+    },
+    {
+        "handle": "255574",
+        "title": "Nudges Driven Networks: Towards More Acceptable Recommendations for Inducing Targeted Social Communities",
+        "doi": "10.1007/978-3-030-34770-3_30",
+        "year": "2019",
+        "authors": [
+            {
+                "id": "rp00722",
+                "name": "Italo Francesco",
+                "surname": "Zoppis"
+            },
+            {
+                "id": "rp05759",
+                "name": "Sara Lucia",
+                "surname": "Manzoni"
+            },
+            {
+                "id": "rp06798",
+                "name": "Giancarlo",
+                "surname": "Mauri"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "6th International Conference on Internet Science, INSCI 2019",
+        "url": "http://hdl.handle.net/10281/255574",
+        "keywords": [
+            "nudge theory",
+            "machine learning",
+            "senior project"
+        ],
+        "last_update": "1685684311776"
+    },
+    {
+        "handle": "265202",
+        "title": "FILO: FIx-LOcus Recommendation for Problems Caused by Android Framework Upgrade",
+        "doi": "10.1109/ISSRE.2019.00043",
+        "year": "2019",
+        "authors": [
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            },
+            {
+                "id": "rp05726",
+                "name": "Oliviero",
+                "surname": "Riganelli"
             },
             {
                 "id": "rp02409",
@@ -1865,26 +1861,21 @@
                 "surname": "Micucci"
             },
             {
-                "id": "rp07032",
-                "name": "Marco",
-                "surname": "Mobilio"
-            },
-            {
-                "id": "rp00482",
-                "name": "Paolo",
-                "surname": "Napoletano"
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
             }
         ],
         "type": "Intervento a convegno",
         "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "IEEE SERVICES Workshop on Big Data for Public Health Policy co-located with the IEEE World Congress on Services, SERVICES 2019",
-        "url": "http://hdl.handle.net/10281/253153",
+        "venue": "30th IEEE International Symposium on Software Reliability Engineering, ISSRE 2019",
+        "url": "http://hdl.handle.net/10281/265202",
         "keywords": [
-            "Big labeled data",
-            "Deep Learning",
-            "Human Activity Recognition"
+            "api upgrades",
+            "debugging",
+            "android"
         ],
-        "last_update": "1685717760296"
+        "last_update": "1685725039805"
     },
     {
         "handle": "252732",
@@ -1918,10 +1909,10 @@
         "venue": "23rd IEEE International Symposium on Consumer Technologies, ISCT 2019",
         "url": "http://hdl.handle.net/10281/252732",
         "keywords": [
-            "Inertial sensors",
-            "Machine learning",
-            "Deep Learning",
-            "Human Activity Recognition"
+            "human activity recognition",
+            "deep learning",
+            "inertial sensors",
+            "machine learning"
         ],
         "last_update": "1685705276258"
     },
@@ -1957,10 +1948,10 @@
         "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2018)",
         "url": "http://hdl.handle.net/10281/205324",
         "keywords": [
-            "Walkability",
-            "Smart Cities",
-            "Mobile App",
-            "Ageing"
+            "walkability",
+            "smart cities",
+            "ageing",
+            "mobile app"
         ],
         "last_update": "1685696024006"
     },
@@ -1991,14 +1982,14 @@
         "venue": "International Conference on Software Engineering (ICSE) 27 May - 3 June",
         "url": "http://hdl.handle.net/10281/204024",
         "keywords": [
-            "Automatic program repair",
-            "Correct by construction",
-            "Generate and validate",
-            "Program synthesis",
-            "Search-based",
-            "Self-repairing",
-            "Semantics-driven repair",
-            "Software"
+            "search-based",
+            "semantics-driven repair",
+            "generate and validate",
+            "program synthesis",
+            "correct by construction",
+            "software",
+            "automatic program repair",
+            "self-repairing"
         ],
         "last_update": "1685696034335"
     },
@@ -2055,163 +2046,13 @@
         "venue": "Italian Conference on ICT for Smart Cities & Communities (I-CiTies 2017)",
         "url": "http://hdl.handle.net/10281/182556",
         "keywords": [
-            "Ambient Assisted Living",
             "software architecture",
             "embedded systems",
             "acquisition",
+            "ambient assisted living",
             "data fusion"
         ],
         "last_update": "1685694935325"
-    },
-    {
-        "handle": "177127",
-        "title": "Fragmented monitoring",
-        "doi": "10.4204/EPTCS.254.5",
-        "year": "2017",
-        "authors": [
-            {
-                "id": "rp10095",
-                "name": "Oscar Eduardo",
-                "surname": "Cornejo Olivares"
-            },
-            {
-                "id": "rp09181",
-                "name": "Daniela",
-                "surname": "Briola"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "International Workshop on Pre- and Post-Deployment Verification Techniques (PrePost 2017)",
-        "url": "http://hdl.handle.net/10281/177127",
-        "keywords": [
-            "Software",
-            "runtime monitoring",
-            "software engineering",
-            "field data collection",
-            "user experience",
-            "symbolic execution"
-        ],
-        "last_update": "1685692379017"
-    },
-    {
-        "handle": "152449",
-        "title": "Ambient assisted living for an ageing society: A technological overview",
-        "doi": null,
-        "year": "2017",
-        "authors": [
-            {
-                "id": "rp07032",
-                "name": "Marco",
-                "surname": "Mobilio"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "2nd Italian Workshop on Artificial Intelligence for Ambient Assisted Living, AI*AAL.it 2016",
-        "url": "http://hdl.handle.net/10281/152449",
-        "keywords": [
-            "Acting",
-            "Ambient assisted living",
-            "Interacting",
-            "Population ageing",
-            "Reasoning",
-            "Sensing",
-            "Acting",
-            "Ambient assisted living",
-            "Interacting",
-            "Population ageing",
-            "Reasoning",
-            "Sensing",
-            "Computer Science (all)"
-        ],
-        "last_update": "1685698188204"
-    },
-    {
-        "handle": "182558",
-        "title": "Verifying policy enforcers",
-        "doi": "10.1007/978-3-319-67531-2_15",
-        "year": "2017",
-        "authors": [
-            {
-                "id": "rp05726",
-                "name": "Oliviero",
-                "surname": "Riganelli"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "17th International Conference on Runtime Verification, RV 2017",
-        "url": "http://hdl.handle.net/10281/182558",
-        "keywords": [
-            "Proactive library",
-            "Self-healing",
-            "Android",
-            "Resource usage",
-            "API",
-            "Policy enforcement",
-            "Runtime enforcement"
-        ],
-        "last_update": "1685719375269"
-    },
-    {
-        "handle": "182560",
-        "title": "BDCI: Behavioral driven conflict identification",
-        "doi": "10.1145/3106237.3106296",
-        "year": "2017",
-        "authors": [
-            {
-                "id": "rp01194",
-                "name": "Fabrizio",
-                "surname": "Pastore"
-            },
-            {
-                "id": "rp01611",
-                "name": "Leonardo",
-                "surname": "Mariani"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "11th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering, ESEC/FSE 2017",
-        "url": "http://hdl.handle.net/10281/182560",
-        "keywords": [
-            "Software evolution",
-            "conflict detection",
-            "specification mining",
-            "testing"
-        ],
-        "last_update": "1685710334902"
     },
     {
         "handle": "152537",
@@ -2240,12 +2081,12 @@
         "venue": "12th IEEE/ACM International Symposium on Software Engineering for Adaptive and Self-Managing Systems, SEAMS 2017",
         "url": "http://hdl.handle.net/10281/152537",
         "keywords": [
-            "proactive library",
+            "policy enforcement",
+            "android",
             "self-healing",
-            "Android",
-            "resource usage",
-            "API",
-            "policy enforcement"
+            "api",
+            "proactive library",
+            "resource usage"
         ],
         "last_update": "1685713897768"
     },
@@ -2276,10 +2117,10 @@
         "venue": "10th IEEE International Conference on Software Testing, Verification and Validation, ICST 2017",
         "url": "http://hdl.handle.net/10281/152519",
         "keywords": [
-            "Specification mining",
+            "ktail",
+            "timed ktail",
             "finite state models",
-            "kTail",
-            "Timed kTail"
+            "specification mining"
         ],
         "last_update": "1685702436947"
     },
@@ -2315,11 +2156,155 @@
         "venue": "IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results Track, ICSE-NIER 20-28 may",
         "url": "http://hdl.handle.net/10281/152795",
         "keywords": [
-            "Monitoring",
             "dynamic analysis",
-            "user experience"
+            "user experience",
+            "monitoring"
         ],
         "last_update": "1685687342017"
+    },
+    {
+        "handle": "182558",
+        "title": "Verifying policy enforcers",
+        "doi": "10.1007/978-3-319-67531-2_15",
+        "year": "2017",
+        "authors": [
+            {
+                "id": "rp05726",
+                "name": "Oliviero",
+                "surname": "Riganelli"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "17th International Conference on Runtime Verification, RV 2017",
+        "url": "http://hdl.handle.net/10281/182558",
+        "keywords": [
+            "policy enforcement",
+            "android",
+            "self-healing",
+            "api",
+            "proactive library",
+            "resource usage",
+            "runtime enforcement"
+        ],
+        "last_update": "1685719375269"
+    },
+    {
+        "handle": "182560",
+        "title": "BDCI: Behavioral driven conflict identification",
+        "doi": "10.1145/3106237.3106296",
+        "year": "2017",
+        "authors": [
+            {
+                "id": "rp01194",
+                "name": "Fabrizio",
+                "surname": "Pastore"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "11th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering, ESEC/FSE 2017",
+        "url": "http://hdl.handle.net/10281/182560",
+        "keywords": [
+            "testing",
+            "conflict detection",
+            "software evolution",
+            "specification mining"
+        ],
+        "last_update": "1685710334902"
+    },
+    {
+        "handle": "152449",
+        "title": "Ambient assisted living for an ageing society: A technological overview",
+        "doi": null,
+        "year": "2017",
+        "authors": [
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "2nd Italian Workshop on Artificial Intelligence for Ambient Assisted Living, AI*AAL.it 2016",
+        "url": "http://hdl.handle.net/10281/152449",
+        "keywords": [
+            "reasoning",
+            "sensing",
+            "computer science (all)",
+            "interacting",
+            "ambient assisted living",
+            "acting",
+            "population ageing"
+        ],
+        "last_update": "1685698188204"
+    },
+    {
+        "handle": "177127",
+        "title": "Fragmented monitoring",
+        "doi": "10.4204/EPTCS.254.5",
+        "year": "2017",
+        "authors": [
+            {
+                "id": "rp10095",
+                "name": "Oscar Eduardo",
+                "surname": "Cornejo Olivares"
+            },
+            {
+                "id": "rp09181",
+                "name": "Daniela",
+                "surname": "Briola"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "International Workshop on Pre- and Post-Deployment Verification Techniques (PrePost 2017)",
+        "url": "http://hdl.handle.net/10281/177127",
+        "keywords": [
+            "symbolic execution",
+            "runtime monitoring",
+            "software engineering",
+            "software",
+            "field data collection",
+            "user experience"
+        ],
+        "last_update": "1685692379017"
     },
     {
         "handle": "152469",
@@ -2348,14 +2333,14 @@
         "venue": "27th IEEE International Symposium on Software Reliability Engineering Workshops, ISSREW 2016",
         "url": "http://hdl.handle.net/10281/152469",
         "keywords": [
-            "Android",
-            "Data loss",
-            "Self-healing",
-            "Stop-start events",
-            "Safety",
-            "Risk",
-            "Reliability and Quality",
-            "Software"
+            "safety",
+            "risk",
+            "android",
+            "self-healing",
+            "software",
+            "data loss",
+            "stop-start events",
+            "reliability and quality"
         ],
         "last_update": "1685721489459"
     },
@@ -2386,10 +2371,10 @@
         "venue": "10th International Conference on Software Engineering and Applications, ICSOFT-EA 2015",
         "url": "http://hdl.handle.net/10281/132426",
         "keywords": [
-            "Sensor Heterogeneity",
-            "Modularisation",
-            "Software Architecture",
-            "Knowledge Representation"
+            "knowledge representation",
+            "software architecture",
+            "sensor heterogeneity",
+            "modularisation"
         ],
         "last_update": "1685685990818"
     },
@@ -2416,10 +2401,40 @@
         "url": "http://hdl.handle.net/10281/57789",
         "keywords": [
             "robotica educativa",
-            "costruzionismo",
-            "sperimentazione"
+            "sperimentazione",
+            "costruzionismo"
         ],
         "last_update": "1685701275540"
+    },
+    {
+        "handle": "54620",
+        "title": "An Architecture for the Design of Platforms Supporting Responsive Environments",
+        "doi": "10.5220/0005099404170427",
+        "year": "2014",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "9th International Conference on Software Engineering and Applications, ICSOFT-EA 2014",
+        "url": "http://hdl.handle.net/10281/54620",
+        "keywords": [
+            "software architecture",
+            "responsive environments",
+            "perception flow",
+            "action flow",
+            "integration"
+        ],
+        "last_update": "1685724450496"
     },
     {
         "handle": "54527",
@@ -2448,41 +2463,11 @@
         "venue": "IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW) NOV 03-06",
         "url": "http://hdl.handle.net/10281/54527",
         "keywords": [
-            "Conflicts detection",
-            "specification mining",
-            "version control"
+            "conflicts detection",
+            "version control",
+            "specification mining"
         ],
         "last_update": "1685689721573"
-    },
-    {
-        "handle": "54620",
-        "title": "An Architecture for the Design of Platforms Supporting Responsive Environments",
-        "doi": "10.5220/0005099404170427",
-        "year": "2014",
-        "authors": [
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp07032",
-                "name": "Marco",
-                "surname": "Mobilio"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "9th International Conference on Software Engineering and Applications, ICSOFT-EA 2014",
-        "url": "http://hdl.handle.net/10281/54620",
-        "keywords": [
-            "Perception flow",
-            "action flow",
-            "integration",
-            "software architecture",
-            "responsive environments"
-        ],
-        "last_update": "1685724450496"
     },
     {
         "handle": "48256",
@@ -2512,22 +2497,17 @@
         "url": "http://hdl.handle.net/10281/48256",
         "keywords": [
             "real-time",
-            "time awareness",
-            "architectural abstractions"
+            "architectural abstractions",
+            "time awareness"
         ],
         "last_update": "1685684077199"
     },
     {
-        "handle": "48273",
-        "title": "Spaces-Based Communication: an Extension to Support Infinite Spatial Models",
+        "handle": "43403",
+        "title": "Robotic mapping: an architectural approach",
         "doi": null,
         "year": "2013",
         "authors": [
-            {
-                "id": "rp02324",
-                "name": "Diego",
-                "surname": "Bernini"
-            },
             {
                 "id": "rp04122",
                 "name": "Francesco",
@@ -2546,49 +2526,15 @@
         ],
         "type": "Intervento a convegno",
         "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "7th International Conference on Mobile Ubiquitous Computing, Systems, Services and Technologies, UBICOMM 2013",
-        "url": "http://hdl.handle.net/10281/48273",
+        "venue": "IEEE International Conference on Robotics and Automation (ICRA) - 8th Workshop on Software Development and Integration in Robotics (SDIR)",
+        "url": "http://hdl.handle.net/10281/43403",
         "keywords": [
-            "Infinite spatial models",
-            "spaces-based communication",
+            "robotics",
+            "robotic mapping",
             "software architecture",
-            "component-based architecture"
+            "map bulding"
         ],
-        "last_update": "1685692117931"
-    },
-    {
-        "handle": "46113",
-        "title": "Petri nets as a means to validate an architecture for time aware systems",
-        "doi": null,
-        "year": "2013",
-        "authors": [
-            {
-                "id": "rp04122",
-                "name": "Francesco",
-                "surname": "Fiamberti"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp06299",
-                "name": "Francesco",
-                "surname": "Tisato"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "International Conference on Application and Theory of Petri Nets and Concurrency - International Workshop on Petri Nets and Software Engineering (PNSE) 24-25 June",
-        "url": "http://hdl.handle.net/10281/46113",
-        "keywords": [
-            "real-time",
-            "architectural abstractions",
-            "UML",
-            "Petri nets"
-        ],
-        "last_update": "1685687412841"
+        "last_update": "1685692563569"
     },
     {
         "handle": "48266",
@@ -2622,15 +2568,54 @@
         "venue": "International Conference on Software Technologies (ICSOFT) - 29/31 July",
         "url": "http://hdl.handle.net/10281/48266",
         "keywords": [
-            "Data fusion",
+            "architectural patterns",
             "software architecture",
-            "architectural patterns"
+            "data fusion"
         ],
         "last_update": "1685709084752"
     },
     {
-        "handle": "43403",
-        "title": "Robotic mapping: an architectural approach",
+        "handle": "48273",
+        "title": "Spaces-Based Communication: an Extension to Support Infinite Spatial Models",
+        "doi": null,
+        "year": "2013",
+        "authors": [
+            {
+                "id": "rp02324",
+                "name": "Diego",
+                "surname": "Bernini"
+            },
+            {
+                "id": "rp04122",
+                "name": "Francesco",
+                "surname": "Fiamberti"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp06299",
+                "name": "Francesco",
+                "surname": "Tisato"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "7th International Conference on Mobile Ubiquitous Computing, Systems, Services and Technologies, UBICOMM 2013",
+        "url": "http://hdl.handle.net/10281/48273",
+        "keywords": [
+            "spaces-based communication",
+            "component-based architecture",
+            "infinite spatial models",
+            "software architecture"
+        ],
+        "last_update": "1685692117931"
+    },
+    {
+        "handle": "46113",
+        "title": "Petri nets as a means to validate an architecture for time aware systems",
         "doi": null,
         "year": "2013",
         "authors": [
@@ -2652,15 +2637,15 @@
         ],
         "type": "Intervento a convegno",
         "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "IEEE International Conference on Robotics and Automation (ICRA) - 8th Workshop on Software Development and Integration in Robotics (SDIR)",
-        "url": "http://hdl.handle.net/10281/43403",
+        "venue": "International Conference on Application and Theory of Petri Nets and Concurrency - International Workshop on Petri Nets and Software Engineering (PNSE) 24-25 June",
+        "url": "http://hdl.handle.net/10281/46113",
         "keywords": [
-            "robotics",
-            "software architecture",
-            "map bulding",
-            "robotic mapping"
+            "real-time",
+            "uml",
+            "petri nets",
+            "architectural abstractions"
         ],
-        "last_update": "1685692563569"
+        "last_update": "1685687412841"
     },
     {
         "handle": "41673",
@@ -2690,9 +2675,9 @@
         "url": "http://hdl.handle.net/10281/41673",
         "keywords": [
             "real-time",
-            "object-orientation",
+            "architectural abstractions",
             "application framework",
-            "architectural abstractions"
+            "object-orientation"
         ],
         "last_update": "1685697437399"
     },
@@ -2723,11 +2708,11 @@
         "venue": "International Workshops on Advanced Information Systems Engineering Workshops, CAiSE 2012",
         "url": "http://hdl.handle.net/10281/41674",
         "keywords": [
-            "time-aware activities",
             "time",
+            "uml",
             "timeline",
             "clock",
-            "UML"
+            "time-aware activities"
         ],
         "last_update": "1685716578321"
     },
@@ -2758,20 +2743,53 @@
         "venue": "IEEE Conference on Emerging Technologies and Factory Automation (ETFA)",
         "url": "http://hdl.handle.net/10281/41713",
         "keywords": [
-            "Application level",
-            "Programming concepts",
-            "Semantic gap",
-            "Temporal behavior",
-            "time reasoning",
-            "Time-awareness",
+            "time-awareness",
+            "real time systems",
+            "semantics",
+            "temporal behavior",
+            "semantic gap",
+            "application level",
+            "factory automation",
+            "programming concepts",
             "time-driven systems",
-            "Abstracting",
-            "Computer systems programming",
-            "Factory automation",
-            "Semantics",
-            "Real time systems"
+            "computer systems programming",
+            "abstracting",
+            "time reasoning"
         ],
         "last_update": "1685718661827"
+    },
+    {
+        "handle": "22322",
+        "title": "Space Integration Services: a Platform for Space-aware Communication",
+        "doi": "10.1145/1815396.1815510",
+        "year": "2010",
+        "authors": [
+            {
+                "id": "rp02324",
+                "name": "Diego",
+                "surname": "Bernini"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp06299",
+                "name": "Francesco",
+                "surname": "Tisato"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "6th International Wireless Communications and Mobile Computing Conference, IWCMC 2010",
+        "url": "http://hdl.handle.net/10281/22322",
+        "keywords": [
+            "integration of communication and computing",
+            "localized information",
+            "space-awareness"
+        ],
+        "last_update": "1685691849132"
     },
     {
         "handle": "22331",
@@ -2800,11 +2818,11 @@
         "venue": "6th International Wireless Communications and Mobile Computing Conference, IWCMC 2010",
         "url": "http://hdl.handle.net/10281/22331",
         "keywords": [
-            "Emergency management systems",
             "adaptivity",
+            "context-based routing",
+            "emergency management systems",
             "cross-layer",
-            "integration of communication and computing",
-            "context-based routing"
+            "integration of communication and computing"
         ],
         "last_update": "1685688407667"
     },
@@ -2835,10 +2853,10 @@
         "venue": "15th IEEE Symposium on Computers and Communications, ISCC 2010",
         "url": "http://hdl.handle.net/10281/22335",
         "keywords": [
-            "open smart spaces",
-            "space-awareness",
+            "publish-subscribe",
             "software architectures",
-            "publish-subscribe"
+            "space-awareness",
+            "open smart spaces"
         ],
         "last_update": "1685687118582"
     },
@@ -2870,44 +2888,11 @@
         "url": "http://hdl.handle.net/10281/22334",
         "keywords": [
             "space-awareness",
-            "localized information",
+            "complex and distributed system",
             "interoperability",
-            "complex and distributed system"
+            "localized information"
         ],
         "last_update": "1685704628828"
-    },
-    {
-        "handle": "22322",
-        "title": "Space Integration Services: a Platform for Space-aware Communication",
-        "doi": "10.1145/1815396.1815510",
-        "year": "2010",
-        "authors": [
-            {
-                "id": "rp02324",
-                "name": "Diego",
-                "surname": "Bernini"
-            },
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp06299",
-                "name": "Francesco",
-                "surname": "Tisato"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "6th International Wireless Communications and Mobile Computing Conference, IWCMC 2010",
-        "url": "http://hdl.handle.net/10281/22322",
-        "keywords": [
-            "Localized information",
-            "space-awareness",
-            "integration of communication and computing"
-        ],
-        "last_update": "1685691849132"
     },
     {
         "handle": "6369",
@@ -2926,8 +2911,8 @@
         "venue": "2009 ACM International Wireless Communications and Mobile Computing Conference, IWCMC 2009",
         "url": "http://hdl.handle.net/10281/6369",
         "keywords": [
-            "Software Architectures",
-            "Domain-specific architectures"
+            "software architectures",
+            "domain-specific architectures"
         ],
         "last_update": "1685700279444"
     },
@@ -2953,10 +2938,10 @@
         "venue": "IASTED International Conference on Software Engineering, SE 2008",
         "url": "http://hdl.handle.net/10281/2923",
         "keywords": [
-            "Adaptivity",
+            "quality of service",
+            "adaptivity",
             "software architecture",
-            "reflection",
-            "quality of service"
+            "reflection"
         ],
         "last_update": "1685706219933"
     },
@@ -2982,7 +2967,7 @@
         "venue": "International Workshop on Ontology, Conceptualization and Epistemology for Software and Systems Engineering (ONTOSE)",
         "url": "http://hdl.handle.net/10281/2940",
         "keywords": [
-            "Software engineering",
+            "software engineering",
             "abstraction",
             "separation of concerns",
             "spatial ontologies"
@@ -3011,9 +2996,9 @@
         "venue": "Multiagent Systems and Software Architecture",
         "url": "http://hdl.handle.net/10281/3114",
         "keywords": [
-            "Multi Agent Systems",
-            "architectural abstractions",
             "time",
+            "multi agent systems",
+            "architectural abstractions",
             "time-aware systems"
         ],
         "last_update": "1685694528552"
@@ -3035,8 +3020,8 @@
         "venue": "International Conference on Autonomic and Autonomous Systems Autonomic and Autonomous Systems (ICAS)",
         "url": "http://hdl.handle.net/10281/3115",
         "keywords": [
-            "Reflection",
             "context-awareness",
+            "reflection",
             "software architecture"
         ],
         "last_update": "1685683743252"
@@ -3063,9 +3048,9 @@
         "venue": "Software Engineering and Knowledge Engineering (SEKE)",
         "url": "http://hdl.handle.net/10281/3117",
         "keywords": [
-            "Reflection",
+            "reflection",
             "software architecture",
-            "QoS"
+            "qos"
         ],
         "last_update": "1685688622315"
     },
@@ -3086,9 +3071,9 @@
         "venue": "ACM Symposium on Applied Computing",
         "url": "http://hdl.handle.net/10281/3156",
         "keywords": [
-            "Validation",
+            "planning",
             "soft real-time",
-            "planning"
+            "validation"
         ],
         "last_update": "1685699432703"
     },
@@ -3114,7 +3099,7 @@
         "venue": "International Conference on Emerging Technologies and Factory Automation (ETFA)",
         "url": "http://hdl.handle.net/10281/3116",
         "keywords": [
-            "Real-time",
+            "real-time",
             "software architecture"
         ],
         "last_update": "1685685278956"
@@ -3137,9 +3122,9 @@
         "url": "http://hdl.handle.net/10281/13961",
         "keywords": [
             "quality of service",
-            "resource allocation",
             "reflection",
-            "soft realtime"
+            "soft realtime",
+            "resource allocation"
         ],
         "last_update": "1685688900018"
     },
@@ -3175,48 +3160,12 @@
         "venue": "IEEE Real-Time and Embedded Technology and Application (RTAS)",
         "url": "http://hdl.handle.net/10281/27414",
         "keywords": [
-            "robot",
+            "time",
             "autonomous",
             "software architecture",
-            "time"
+            "robot"
         ],
         "last_update": "1685696314825"
-    },
-    {
-        "handle": "13659",
-        "title": "Time sensitive architectures: A reflective approach",
-        "doi": "10.1109/ISORC.2004.1300344",
-        "year": "2004",
-        "authors": [
-            {
-                "id": "rp02409",
-                "name": "Daniela",
-                "surname": "Micucci"
-            },
-            {
-                "id": "rp04684",
-                "name": "Sergio",
-                "surname": "Ruocco"
-            },
-            {
-                "id": "rp06299",
-                "name": "Francesco",
-                "surname": "Tisato"
-            }
-        ],
-        "type": "Intervento a convegno",
-        "type_driver": "info:eu-repo/semantics/conferenceObject",
-        "venue": "International Symposium on Object-oriented Real-time distributed Computing",
-        "url": "http://hdl.handle.net/10281/13659",
-        "keywords": [
-            "temporal reflection",
-            "architectural abstractions",
-            "reflection",
-            "time",
-            "real time",
-            "architecture"
-        ],
-        "last_update": "1685698734303"
     },
     {
         "handle": "13951",
@@ -3250,11 +3199,47 @@
         "venue": "International Conference on Computing, Communications and Control Technologies",
         "url": "http://hdl.handle.net/10281/13951",
         "keywords": [
-            "Robotics",
-            "Software Architecture",
-            "Real-Time"
+            "robotics",
+            "software architecture",
+            "real-time"
         ],
         "last_update": "1685704119925"
+    },
+    {
+        "handle": "13659",
+        "title": "Time sensitive architectures: A reflective approach",
+        "doi": "10.1109/ISORC.2004.1300344",
+        "year": "2004",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp04684",
+                "name": "Sergio",
+                "surname": "Ruocco"
+            },
+            {
+                "id": "rp06299",
+                "name": "Francesco",
+                "surname": "Tisato"
+            }
+        ],
+        "type": "Intervento a convegno",
+        "type_driver": "info:eu-repo/semantics/conferenceObject",
+        "venue": "International Symposium on Object-oriented Real-time distributed Computing",
+        "url": "http://hdl.handle.net/10281/13659",
+        "keywords": [
+            "reflection",
+            "architectural abstractions",
+            "time",
+            "temporal reflection",
+            "architecture",
+            "real time"
+        ],
+        "last_update": "1685698734303"
     },
     {
         "handle": "27796",
@@ -3278,16 +3263,16 @@
         "venue": "23rd International Conference on Distributed Computing Systems Workshops, ICDCSW 2003 - 19 May 2003 through 22 May 2003",
         "url": "http://hdl.handle.net/10281/27796",
         "keywords": [
-            "Computer architecture",
-            "Connectors",
-            "Distributed computing",
-            "Middleware",
-            "Protocols",
-            "Real time systems",
-            "Software architecture",
-            "Software maintenance",
-            "Software systems",
-            "Topology"
+            "distributed computing",
+            "real time systems",
+            "software architecture",
+            "software systems",
+            "middleware",
+            "topology",
+            "protocols",
+            "connectors",
+            "software maintenance",
+            "computer architecture"
         ],
         "last_update": "1691908462113"
     },
@@ -3308,13 +3293,13 @@
         "venue": "International Conference on Software Engineering & Knowledge Engineering (SEKE)",
         "url": "http://hdl.handle.net/10281/27741",
         "keywords": [
-            "pattern",
-            "framework",
             "ease",
-            "dynamical",
+            "framework",
             "change",
+            "behaviour",
             "component",
-            "behaviour"
+            "dynamical",
+            "pattern"
         ],
         "last_update": "1685683252529"
     },
@@ -3345,13 +3330,13 @@
         "venue": "Environmental IFIP Informatics Institute WG 5.11 5th International Symposium on Environmental Software Systems",
         "url": "http://hdl.handle.net/10281/30438",
         "keywords": [
-            "knowledge",
             "based",
-            "support",
+            "control",
             "indoor",
-            "air",
+            "support",
             "quality",
-            "control"
+            "knowledge",
+            "air"
         ],
         "last_update": "1685683358847"
     },
@@ -3372,14 +3357,14 @@
         "venue": "Conference on Visual Communications and Image Processing 2003 - JUL 08-11, 2003",
         "url": "http://hdl.handle.net/10281/27794",
         "keywords": [
-            "tracking",
-            "O-O analysis and design",
-            "UML",
-            "abstraction",
-            "time",
-            "strategy",
+            "reflection",
             "distribution",
-            "reflection"
+            "time",
+            "abstraction",
+            "tracking",
+            "uml",
+            "o-o analysis and design",
+            "strategy"
         ],
         "last_update": "1692441417207"
     },
@@ -3400,18 +3385,18 @@
         "venue": "14th International Conference on Software Engineering and Knowledge Engineering, SEKE '02",
         "url": "http://hdl.handle.net/10281/27768",
         "keywords": [
-            "exploiting",
+            "based",
             "kaleidoscope",
+            "devices",
+            "supervisor",
+            "environmental",
+            "heterogeneous",
+            "knowledge",
+            "monitoring",
+            "exploiting",
             "architecture",
             "industrial",
-            "environmental",
-            "monitoring",
-            "system",
-            "heterogeneous",
-            "devices",
-            "knowledge",
-            "based",
-            "supervisor"
+            "system"
         ],
         "last_update": "1685698595648"
     },
@@ -3447,12 +3432,12 @@
         "venue": "Didamatica",
         "url": "http://hdl.handle.net/10281/19920",
         "keywords": [
-            "mentor",
-            "academic",
-            "resource",
             "planning",
+            "mentor",
+            "didattica",
             "gestione",
-            "didattica"
+            "academic",
+            "resource"
         ],
         "last_update": "1685696263197"
     },
@@ -3490,10 +3475,10 @@
         "keywords": [
             "conceptual",
             "concrete",
-            "architectures",
+            "applications",
             "design",
-            "cscw",
-            "applications"
+            "architectures",
+            "cscw"
         ],
         "last_update": "1685726320434"
     },
@@ -3519,11 +3504,11 @@
         "venue": "WSDAAL 2001 Conference",
         "url": "http://hdl.handle.net/10281/27793",
         "keywords": [
-            "environmental",
-            "monitoring",
-            "systems",
             "kaleidoscope",
-            "architecture"
+            "systems",
+            "environmental",
+            "architecture",
+            "monitoring"
         ],
         "last_update": "1685702422667"
     },
@@ -3544,9 +3529,9 @@
         "venue": "Didamatica",
         "url": "http://hdl.handle.net/10281/27798",
         "keywords": [
-            "language",
+            "object-oriented",
             "html",
-            "object-oriented"
+            "language"
         ],
         "last_update": "1685696326875"
     },
@@ -3595,12 +3580,12 @@
         "venue": "Information Systems Education Conference (ISECON)",
         "url": "http://hdl.handle.net/10281/27797",
         "keywords": [
-            "objects",
-            "hypertexts",
             "render",
-            "html",
+            "objects",
+            "purposes",
             "teaching",
-            "purposes"
+            "hypertexts",
+            "html"
         ],
         "last_update": "1685726066924"
     }
