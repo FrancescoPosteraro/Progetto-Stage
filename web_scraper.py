@@ -11,8 +11,7 @@ traduzione dei dati in file json
 
 from database import database_manager
 from bs4 import BeautifulSoup   #Libreria per il parsing di HMTL, utilizzato per estrarre dati dalla pagina web
-import requests, webbrowser, json, os, time
-from urllib.parse import urlparse, parse_qs
+import requests, json, os
 from pathlib import Path
 
 
@@ -20,10 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 #Path del file publications.json (per il momento é solo il path nel mio pc)
 JSON_PATH = BASE_DIR / "publications.json"
-#Path del file seconds che contiene tutti i tempi di esecuzione di tutte le esecuzioni
-SECONDS_PATH = BASE_DIR / "EXTRA" / "seconds.txt"
 
-LAST_UPDATE_PATH = BASE_DIR / "EXTRA" /"last_update.json"
 
 #dizionario di conversione per tradurre i nome che arrivano dal sito i nomi piu' semplici da leggere
 FIELD_MAPPING = {
@@ -165,11 +161,11 @@ def upsert_publication(data, pub):
 
         #salvo il tipo
         pub_dict["type"] = value
-
+        
         #Se non é nessunaq delle due viene fatto il reutnr e non viene aggiunto niente,
         #se invece si tratta del tipo 1 o 2 viene aggiunto al dizionario, e viene anche aggiunto il neue
         #in base al tipo di pubblicazione, diverso per i due tipi
-        if value == "Intervento su rivista":
+        if value == "Articolo su rivista":
             pub_dict["type"] = value
 
             field_vanue = table.find("td", string="dc.authority.ancejournal")
@@ -372,26 +368,5 @@ def sync_pubblication():
 # Avvio del programma:
 # viene determinato se eseguire un aggiornamento oppure una creazione
 # in base alla presenza del file "publications.json"
-    #Prendo il tempo di partenza solo per calcolare il tempo di esecuzione del programma
-start_time = time.time()
-
 print("Avvio");
 sync_pubblication()
-
-last_update = int(time.time() * 1000)
-
-LAST_UPDATE_PATH.write_text(
-json.dumps({"last_update_ms": last_update}, indent=2),
-    encoding="utf-8"
-)
-
-    #Questa parte é sempre legata al solo scopo di sapere i tempi di esecuzione
-end_time = time.time()
-
-tempo_esecuzione = end_time - start_time
-
-
-with open(SECONDS_PATH, "a") as file:
-    file.write(f"{tempo_esecuzione}\n")
-
-print(f"Tempo di esecuzione: {tempo_esecuzione:.4f} secondi")

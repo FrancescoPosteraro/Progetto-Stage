@@ -3588,5 +3588,1419 @@
             "html"
         ],
         "last_update": "1685726066924"
+    },
+    {
+        "handle": "617826",
+        "title": "PR4Code: A Pull Requests Dataset for AI Code Generation",
+        "doi": "10.1109/access.2026.3713096",
+        "year": "2026",
+        "authors": [
+            {
+                "id": "rp188218",
+                "name": "Benedetta",
+                "surname": "Donato"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp05726",
+                "name": "Oliviero",
+                "surname": "Riganelli"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "IEEE ACCESS",
+        "url": "https://hdl.handle.net/10281/617826",
+        "keywords": [
+            "code changes",
+            "llms",
+            "ai-driven code generation",
+            "feature development",
+            "commits",
+            "pull requests",
+            "ai assistants"
+        ],
+        "last_update": "1785413623173"
+    },
+    {
+        "handle": "490679",
+        "title": "Deep Representation Learning for Open Vocabulary Electroencephalography-to-Text Decoding",
+        "doi": "10.1109/JBHI.2024.3416066",
+        "year": "2026",
+        "authors": [
+            {
+                "id": "rp26048",
+                "name": "Hamza",
+                "surname": "Amrani"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "IEEE JOURNAL OF BIOMEDICAL AND HEALTH INFORMATICS",
+        "url": "https://hdl.handle.net/10281/490679",
+        "keywords": [
+            "representation learning",
+            "transformer",
+            "decoding",
+            "neuroscience",
+            "language models"
+        ],
+        "last_update": "1780379400341"
+    },
+    {
+        "handle": "562163",
+        "title": "How low-code platforms support digital twins of processes",
+        "doi": "10.1007/s10270-025-01310-4",
+        "year": "2025",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp121707",
+                "name": "Maria Teresa",
+                "surname": "Rossi"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "SOFTWARE AND SYSTEMS MODELING",
+        "url": "https://hdl.handle.net/10281/562163",
+        "keywords": [
+            "workflow management system",
+            "process digital twin",
+            "low-code development platform",
+            "workflow modeling"
+        ],
+        "last_update": "1759337831070"
+    },
+    {
+        "handle": "548081",
+        "title": "Leveraging dataset integration and continual learning for human activity recognition",
+        "doi": "10.1007/s13042-025-02569-1",
+        "year": "2025",
+        "authors": [
+            {
+                "id": "rp26048",
+                "name": "Hamza",
+                "surname": "Amrani"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            },
+            {
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "INTERNATIONAL JOURNAL OF MACHINE LEARNING AND CYBERNETICS",
+        "url": "https://hdl.handle.net/10281/548081",
+        "keywords": [
+            "human activity recognition",
+            "machine learning",
+            "dataset",
+            "integration platform",
+            "adl",
+            "inertial data"
+        ],
+        "last_update": "1755788776785"
+    },
+    {
+        "handle": "557608",
+        "title": "Internet of Medical Things Systems Review: Insights into Non-Functional Factors",
+        "doi": "10.3390/s25092795",
+        "year": "2025",
+        "authors": [
+            {
+                "id": "rp59085",
+                "name": "Giovanni Donato",
+                "surname": "Gallo"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "SENSORS",
+        "url": "https://hdl.handle.net/10281/557608",
+        "keywords": [
+            "sustainability",
+            "security",
+            "non-functional requirement",
+            "self-adaptation",
+            "configurability",
+            "interoperability",
+            "iomt"
+        ],
+        "last_update": "1749617876593"
+    },
+    {
+        "handle": "462999",
+        "title": "A family of experiments about how developers perceive delayed system response time",
+        "doi": "10.1007/s11219-024-09660-w",
+        "year": "2024",
+        "authors": [
+            {
+                "id": "rp10095",
+                "name": "Oscar Eduardo",
+                "surname": "Cornejo Olivares"
+            },
+            {
+                "id": "rp09181",
+                "name": "Daniela",
+                "surname": "Briola"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp09808",
+                "name": "Davide",
+                "surname": "Ginelli"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "SOFTWARE QUALITY JOURNAL",
+        "url": "https://hdl.handle.net/10281/462999",
+        "keywords": [
+            "empirical software engineering",
+            "user studies",
+            "monitoring"
+        ],
+        "last_update": "1735801433062"
+    },
+    {
+        "handle": "522300",
+        "title": "FILO: Automated FIx-LOcus Identification for Android Framework Compatibility Issues",
+        "doi": "10.3390/info15080423",
+        "year": "2024",
+        "authors": [
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            },
+            {
+                "id": "rp05726",
+                "name": "Oliviero",
+                "surname": "Riganelli"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "INFORMATION",
+        "url": "https://hdl.handle.net/10281/522300",
+        "keywords": [
+            "regression testing",
+            "android fragmentation",
+            "software evolution",
+            "fault localization"
+        ],
+        "last_update": "1730176012972"
+    },
+    {
+        "handle": "522298",
+        "title": "The future of human and animal digital health platforms",
+        "doi": "10.1007/s40860-024-00232-0",
+        "year": "2024",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "JOURNAL OF RELIABLE INTELLIGENT ENVIRONMENTS",
+        "url": "https://hdl.handle.net/10281/522298",
+        "keywords": [
+            "animal health",
+            "human health",
+            "veterinary",
+            "ehealth",
+            "platform",
+            "iomt"
+        ],
+        "last_update": "1730121086819"
+    },
+    {
+        "handle": "458480",
+        "title": "Automatic testing of runtime enforcers with Test4Enforcers",
+        "doi": "10.1016/j.jss.2023.111949",
+        "year": "2024",
+        "authors": [
+            {
+                "id": "rp05726",
+                "name": "Oliviero",
+                "surname": "Riganelli"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "THE JOURNAL OF SYSTEMS AND SOFTWARE",
+        "url": "https://hdl.handle.net/10281/458480",
+        "keywords": [
+            "testing enforcers",
+            "runtime enforcement",
+            "test case generation",
+            "android apps"
+        ],
+        "last_update": "1760376580425"
+    },
+    {
+        "handle": "347957",
+        "title": "Deep learning and model personalization in sensor-based human activity recognition",
+        "doi": "10.1007/s40860-021-00167-w",
+        "year": "2023",
+        "authors": [
+            {
+                "id": "rp16444",
+                "name": "Anna",
+                "surname": "Ferrari"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            },
+            {
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "JOURNAL OF RELIABLE INTELLIGENT ENVIRONMENTS",
+        "url": "http://hdl.handle.net/10281/347957",
+        "keywords": [
+            "machine learning",
+            "personalization",
+            "convolutional neural network",
+            "deep learning",
+            "adaboost",
+            "adl",
+            "human activity recognition"
+        ],
+        "last_update": "1758509983628"
+    },
+    {
+        "handle": "420311",
+        "title": "Embedding the Patient-Citizen Perspective into an Operational Framework for the Development and the Introduction of New Technologies in Rehabilitation Care: The Smart&Touch-ID Model",
+        "doi": "10.3390/healthcare11111604",
+        "year": "2023",
+        "authors": [
+            {
+                "id": "rp06428",
+                "name": "Olivia",
+                "surname": "Realdon"
+            },
+            {
+                "id": "rp00016",
+                "name": "Roberta",
+                "surname": "Adorni"
+            },
+            {
+                "id": "rp09808",
+                "name": "Davide",
+                "surname": "Ginelli"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp18822",
+                "name": "Roberto",
+                "surname": "Carradore"
+            },
+            {
+                "id": "rp06393",
+                "name": "Marco",
+                "surname": "D'Addario"
+            },
+            {
+                "id": "rp00964",
+                "name": "Marco",
+                "surname": "Gui"
+            },
+            {
+                "id": "rp06716",
+                "name": "Vincenzina",
+                "surname": "Messina"
+            },
+            {
+                "id": "rp05710",
+                "name": "Patrizia",
+                "surname": "Steca"
+            },
+            {
+                "id": "rp02260",
+                "name": "Fabrizia",
+                "surname": "Mantovani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "HEALTHCARE",
+        "url": "https://hdl.handle.net/10281/420311",
+        "keywords": [
+            "community-based participatory research",
+            "psychological well-being",
+            "needs assessment",
+            "technology assessment",
+            "multidimensional approach",
+            "co-design",
+            "telerehabilitation",
+            "noncommunicable diseases"
+        ],
+        "last_update": "1690976985517"
+    },
+    {
+        "handle": "357985",
+        "title": "An Internet-Based Multi-Approach Intervention Targeting University Students Suffering from Psychological Problems: Design, Implementation, and Evaluation",
+        "doi": "10.3390/ijerph19052711",
+        "year": "2022",
+        "authors": [
+            {
+                "id": "rp50413",
+                "name": "Marlene",
+                "surname": "De Fabritiis"
+            },
+            {
+                "id": "rp230903",
+                "name": "Federica",
+                "surname": "Trisolini"
+            },
+            {
+                "id": "rp24900",
+                "name": "Gloria",
+                "surname": "Bertuletti"
+            },
+            {
+                "id": "rp83573",
+                "name": "Ionut Daniel",
+                "surname": "Fagadau"
+            },
+            {
+                "id": "rp09808",
+                "name": "Davide",
+                "surname": "Ginelli"
+            },
+            {
+                "id": "rp24513",
+                "name": "Marta",
+                "surname": "Maisto"
+            },
+            {
+                "id": "rp01952",
+                "name": "Fabio",
+                "surname": "Madeddu"
+            },
+            {
+                "id": "rp04076",
+                "name": "Daniele Luigi",
+                "surname": "Romano"
+            },
+            {
+                "id": "rp05665",
+                "name": "Alessandro",
+                "surname": "Gabbiadini"
+            },
+            {
+                "id": "rp03772",
+                "name": "Emanuele",
+                "surname": "Preti"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp21361",
+                "name": "Raffaella",
+                "surname": "Calati"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "INTERNATIONAL JOURNAL OF ENVIRONMENTAL RESEARCH AND PUBLIC HEALTH",
+        "url": "http://hdl.handle.net/10281/357985",
+        "keywords": [
+            "cognitive-behavioral treatment",
+            "university students",
+            "internet-based intervention",
+            "randomized controlled trial"
+        ],
+        "last_update": "1771006941984"
+    },
+    {
+        "handle": "281152",
+        "title": "TkT: Automatic Inference of Timed and Extended Pushdown Automata",
+        "doi": "10.1109/TSE.2020.2998527",
+        "year": "2022",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp19126",
+                "name": "Michell",
+                "surname": "Guzman Cancimance"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "IEEE TRANSACTIONS ON SOFTWARE ENGINEERING",
+        "url": "http://hdl.handle.net/10281/281152",
+        "keywords": [
+            "dynamic analysis",
+            "timed automata",
+            "trace analysis",
+            "specification mining",
+            "performance analysis",
+            "model inference"
+        ],
+        "last_update": "1750858012500"
+    },
+    {
+        "handle": "376229",
+        "title": "Internet- and Mobile-based interventions aimed at suicide risks: a review of the literature",
+        "doi": "10.1701/3792.37766",
+        "year": "2022",
+        "authors": [
+            {
+                "id": "rp03772",
+                "name": "Emanuele",
+                "surname": "Preti"
+            },
+            {
+                "id": "rp01952",
+                "name": "Fabio",
+                "surname": "Madeddu"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp21361",
+                "name": "Raffaella",
+                "surname": "Calati"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "RECENTI PROGRESSI IN MEDICINA",
+        "url": "http://hdl.handle.net/10281/376229",
+        "keywords": [
+            "suicide",
+            "interventi internet-based",
+            "prevenzione",
+            "internet-based interventions",
+            "prevention",
+            "suicidio",
+            "app"
+        ],
+        "last_update": "1744089453198"
+    },
+    {
+        "handle": "327257",
+        "title": "Trends in human activity recognition using smartphones",
+        "doi": "10.1007/s40860-021-00147-0",
+        "year": "2021",
+        "authors": [
+            {
+                "id": "rp16444",
+                "name": "Anna",
+                "surname": "Ferrari"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            },
+            {
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "JOURNAL OF RELIABLE INTELLIGENT ENVIRONMENTS",
+        "url": "http://hdl.handle.net/10281/327257",
+        "keywords": [
+            "machine learning",
+            "deep learning",
+            "smartphone",
+            "adl",
+            "human activity recognition"
+        ],
+        "last_update": "1716853136531"
+    },
+    {
+        "handle": "259018",
+        "title": "In-the-field monitoring of functional calls: Is it feasible?",
+        "doi": "10.1016/j.jss.2020.110523",
+        "year": "2020",
+        "authors": [
+            {
+                "id": "rp10095",
+                "name": "Oscar Eduardo",
+                "surname": "Cornejo Olivares"
+            },
+            {
+                "id": "rp09181",
+                "name": "Daniela",
+                "surname": "Briola"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "THE JOURNAL OF SYSTEMS AND SOFTWARE",
+        "url": "http://hdl.handle.net/10281/259018",
+        "keywords": [
+            "user experience",
+            "monitoring",
+            "dynamic analysis"
+        ],
+        "last_update": "1751034302041"
+    },
+    {
+        "handle": "277636",
+        "title": "Online social space identification. A computational tool for optimizing social recommendations",
+        "doi": "10.3390/app10093024",
+        "year": "2020",
+        "authors": [
+            {
+                "id": "rp00722",
+                "name": "Italo Francesco",
+                "surname": "Zoppis"
+            },
+            {
+                "id": "rp03931",
+                "name": "Andrea",
+                "surname": "Trentini"
+            },
+            {
+                "id": "rp05759",
+                "name": "Sara Lucia",
+                "surname": "Manzoni"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp06798",
+                "name": "Giancarlo",
+                "surname": "Mauri"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "APPLIED SCIENCES",
+        "url": "http://hdl.handle.net/10281/277636",
+        "keywords": [
+            "graphs",
+            "social information optimization",
+            "heuristic approximation",
+            "community identification"
+        ],
+        "last_update": "1768401784288"
+    },
+    {
+        "handle": "265204",
+        "title": "On the Personalization of Classification Models for Human Activity Recognition",
+        "doi": "10.1109/ACCESS.2020.2973425",
+        "year": "2020",
+        "authors": [
+            {
+                "id": "rp16444",
+                "name": "Anna",
+                "surname": "Ferrari"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            },
+            {
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "IEEE ACCESS",
+        "url": "http://hdl.handle.net/10281/265204",
+        "keywords": [
+            "machine learning",
+            "personalization",
+            "smartphone",
+            "similarity",
+            "adl",
+            "human activity recognition"
+        ],
+        "last_update": "1685718565060"
+    },
+    {
+        "handle": "214663",
+        "title": "From source code to test cases: A comprehensive benchmark for resource leak detection in Android apps",
+        "doi": "10.1002/spe.2672",
+        "year": "2019",
+        "authors": [
+            {
+                "id": "rp05726",
+                "name": "Oliviero",
+                "surname": "Riganelli"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "SOFTWARE-PRACTICE & EXPERIENCE",
+        "url": "http://hdl.handle.net/10281/214663",
+        "keywords": [
+            "software",
+            "resource leak",
+            "android app",
+            "bug detection",
+            "benchmark"
+        ],
+        "last_update": "1772724288369"
+    },
+    {
+        "handle": "253155",
+        "title": "Reliability on pervasive well-being: will it soon become a reality?: State of the art and open issues",
+        "doi": "10.1007/s40860-019-00087-w",
+        "year": "2019",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "JOURNAL OF RELIABLE INTELLIGENT ENVIRONMENTS",
+        "url": "http://hdl.handle.net/10281/253155",
+        "keywords": [
+            "health",
+            "well-being",
+            "ict"
+        ],
+        "last_update": "1685699805921"
+    },
+    {
+        "handle": "209586",
+        "title": "A platform for P2P agent-based collaborative applications",
+        "doi": "10.1002/spe.2657",
+        "year": "2019",
+        "authors": [
+            {
+                "id": "rp09181",
+                "name": "Daniela",
+                "surname": "Briola"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "SOFTWARE-PRACTICE & EXPERIENCE",
+        "url": "http://hdl.handle.net/10281/209586",
+        "keywords": [
+            "peer-to-peer systems",
+            "jade",
+            "mas",
+            "agent-based paradigm",
+            "diagnosis",
+            "distributed multiagent system"
+        ],
+        "last_update": "1685699762672"
+    },
+    {
+        "handle": "242221",
+        "title": "Field Monitoring with Delayed Saving",
+        "doi": "10.1109/ACCESS.2019.2925855",
+        "year": "2019",
+        "authors": [
+            {
+                "id": "rp10095",
+                "name": "Oscar Eduardo",
+                "surname": "Cornejo Olivares"
+            },
+            {
+                "id": "rp09808",
+                "name": "Davide",
+                "surname": "Ginelli"
+            },
+            {
+                "id": "rp09181",
+                "name": "Daniela",
+                "surname": "Briola"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "IEEE ACCESS",
+        "url": "http://hdl.handle.net/10281/242221",
+        "keywords": [
+            "tracing",
+            "monitoring",
+            "dynamic analysis"
+        ],
+        "last_update": "1772723642982"
+    },
+    {
+        "handle": "255564",
+        "title": "Controlling interactions with libraries in android apps through runtime enforcement",
+        "doi": "10.1145/3368087",
+        "year": "2019",
+        "authors": [
+            {
+                "id": "rp05726",
+                "name": "Oliviero",
+                "surname": "Riganelli"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "ACM TRANSACTIONS ON AUTONOMOUS AND ADAPTIVE SYSTEMS",
+        "url": "http://hdl.handle.net/10281/255564",
+        "keywords": [
+            "resource leak",
+            "resource usage",
+            "proactive library",
+            "runtime enforcement",
+            "self-healing",
+            "android",
+            "policy enforcement"
+        ],
+        "last_update": "1685683841969"
+    },
+    {
+        "handle": "184798",
+        "title": "Automatic Software Repair: A Survey",
+        "doi": "10.1109/TSE.2017.2755013",
+        "year": "2019",
+        "authors": [
+            {
+                "id": "rp09636",
+                "name": "Luca",
+                "surname": "Gazzola"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "IEEE TRANSACTIONS ON SOFTWARE ENGINEERING",
+        "url": "http://hdl.handle.net/10281/184798",
+        "keywords": [
+            "generate and validate",
+            "semantics-driven repair",
+            "correct by construction",
+            "automatic program repair",
+            "self-repairing",
+            "program synthesis",
+            "search-based"
+        ],
+        "last_update": "1685725778173"
+    },
+    {
+        "handle": "205326",
+        "title": "UniMiB AAL: An android sensor data acquisition and labeling suite",
+        "doi": "10.3390/app8081265",
+        "year": "2018",
+        "authors": [
+            {
+                "id": "rp09808",
+                "name": "Davide",
+                "surname": "Ginelli"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            },
+            {
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "APPLIED SCIENCES",
+        "url": "http://hdl.handle.net/10281/205326",
+        "keywords": [
+            "computer science applications1707 computer vision and pattern recognition",
+            "fluid flow and transfer processes",
+            "dataset",
+            "instrumentation",
+            "engineering (all)",
+            "process chemistry and technology",
+            "adl recognition",
+            "android application",
+            "materials science (all)",
+            "falls detection"
+        ],
+        "last_update": "1685715502577"
+    },
+    {
+        "handle": "107302",
+        "title": "Falls as anomalies? An experimental evaluation using smartphone accelerometer data",
+        "doi": "10.1007/s12652-015-0337-0",
+        "year": "2017",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            },
+            {
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
+            },
+            {
+                "id": "rp06299",
+                "name": "Francesco",
+                "surname": "Tisato"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "JOURNAL OF AMBIENT INTELLIGENCE AND HUMANIZED COMPUTING",
+        "url": "http://hdl.handle.net/10281/107302",
+        "keywords": [
+            "fall detection",
+            "accelerometer data",
+            "smartphone",
+            "novelty detection",
+            "anomaly detection"
+        ],
+        "last_update": "1685722570847"
+    },
+    {
+        "handle": "182484",
+        "title": "UniMiB SHAR: A dataset for human activity recognition using acceleration data from smartphones",
+        "doi": "10.3390/app7101101",
+        "year": "2017",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp07032",
+                "name": "Marco",
+                "surname": "Mobilio"
+            },
+            {
+                "id": "rp00482",
+                "name": "Paolo",
+                "surname": "Napoletano"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "APPLIED SCIENCES",
+        "url": "http://hdl.handle.net/10281/182484",
+        "keywords": [
+            "smartphone accelerometers",
+            "fall detection",
+            "dataset",
+            "activity of daily living recognition",
+            "human activity recognition"
+        ],
+        "last_update": "1685705971848"
+    },
+    {
+        "handle": "54618",
+        "title": "A Spaces-Based Platform Enabling Responsive Environments",
+        "doi": null,
+        "year": "2014",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp07278",
+                "name": "Alessio",
+                "surname": "Vertemati"
+            },
+            {
+                "id": "rp04122",
+                "name": "Francesco",
+                "surname": "Fiamberti"
+            },
+            {
+                "id": "rp02324",
+                "name": "Diego",
+                "surname": "Bernini"
+            },
+            {
+                "id": "rp06299",
+                "name": "Francesco",
+                "surname": "Tisato"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "INTERNATIONAL JOURNAL ON ADVANCES IN INTELLIGENT SYSTEMS",
+        "url": "http://hdl.handle.net/10281/54618",
+        "keywords": [
+            "location-aware",
+            "software architecture",
+            "responsive environments",
+            "infinite spatial models",
+            "spaces-based communication"
+        ],
+        "last_update": "1685689243291"
+    },
+    {
+        "handle": "226847",
+        "title": "La robotica educativa: Un esperimento condotto nelle scuole primarie",
+        "doi": null,
+        "year": "2014",
+        "authors": [
+            {
+                "id": "rp06572",
+                "name": "Alessandra",
+                "surname": "Agostini"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp11442",
+                "name": "Alice",
+                "surname": "Rolandi"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "MONDO DIGITALE",
+        "url": "https://hdl.handle.net/10281/226847",
+        "keywords": [
+            "computer science applications1707 computer vision and pattern recognition",
+            "information systems",
+            "media technology"
+        ],
+        "last_update": "1686219973064"
+    },
+    {
+        "handle": "28353",
+        "title": "Grounding ecologies on multiple spaces",
+        "doi": "10.1016/j.pmcj.2011.10.005",
+        "year": "2012",
+        "authors": [
+            {
+                "id": "rp06299",
+                "name": "Francesco",
+                "surname": "Tisato"
+            },
+            {
+                "id": "rp05103",
+                "name": "Carla",
+                "surname": "Simone"
+            },
+            {
+                "id": "rp02324",
+                "name": "Diego",
+                "surname": "Bernini"
+            },
+            {
+                "id": "rp04033",
+                "name": "Marco Paolo",
+                "surname": "Locatelli"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "PERVASIVE AND MOBILE COMPUTING",
+        "url": "http://hdl.handle.net/10281/28353",
+        "keywords": [
+            "space mappings",
+            "space-aware communication",
+            "augmented ecologies",
+            "spatial models",
+            "component-based architecture"
+        ],
+        "last_update": "1685692402229"
+    },
+    {
+        "handle": "41693",
+        "title": "AuDeNTES: Automatic detection of teNtative plagiarism according to a rEference solution",
+        "doi": "10.1145/2133797.2133799",
+        "year": "2012",
+        "authors": [
+            {
+                "id": "rp01611",
+                "name": "Leonardo",
+                "surname": "Mariani"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "ACM TRANSACTIONS ON COMPUTING EDUCATION",
+        "url": "http://hdl.handle.net/10281/41693",
+        "keywords": [
+            "programming course",
+            "empirical comparison",
+            "plagiarism detection",
+            "automatic detection",
+            "academic course",
+            "reference solution",
+            "algorithms",
+            "students",
+            "semi-automated",
+            "intellectual property",
+            "analysis techniques",
+            "academic system",
+            "code fragments"
+        ],
+        "last_update": "1685707273268"
+    },
+    {
+        "handle": "35151",
+        "title": "Architectural abstractions for spaces-based communication in Smart Environments",
+        "doi": "10.3233/AIS-2012-0146",
+        "year": "2012",
+        "authors": [
+            {
+                "id": "rp02324",
+                "name": "Diego",
+                "surname": "Bernini"
+            },
+            {
+                "id": "rp04122",
+                "name": "Francesco",
+                "surname": "Fiamberti"
+            },
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp06299",
+                "name": "Francesco",
+                "surname": "Tisato"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "JOURNAL OF AMBIENT INTELLIGENCE AND SMART ENVIRONMENTS",
+        "url": "http://hdl.handle.net/10281/35151",
+        "keywords": [
+            "software architecture",
+            "spaces-based communication",
+            "publish-subscribe",
+            "smart environments"
+        ],
+        "last_update": "1685689578711"
+    },
+    {
+        "handle": "2878",
+        "title": "Engineering spatial concepts",
+        "doi": "10.1017/S0269888909000149",
+        "year": "2009",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp06299",
+                "name": "Francesco",
+                "surname": "Tisato"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "KNOWLEDGE ENGINEERING REVIEW",
+        "url": "http://hdl.handle.net/10281/2878",
+        "keywords": [
+            "separation of concerns",
+            "abstraction",
+            "spatial ontologies",
+            "software engineering"
+        ],
+        "last_update": "1685711583285"
+    },
+    {
+        "handle": "3210",
+        "title": "Localisation and world modelling: An architectural perspective",
+        "doi": "10.5772/5754",
+        "year": "2006",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            },
+            {
+                "id": "rp03558",
+                "name": "Domenico Giorgio",
+                "surname": "Sorrenti"
+            },
+            {
+                "id": "rp06299",
+                "name": "Francesco",
+                "surname": "Tisato"
+            },
+            {
+                "id": "rp03421",
+                "name": "Fabio Mario Guido",
+                "surname": "Marchese"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "INTERNATIONAL JOURNAL OF ADVANCED ROBOTIC SYSTEMS",
+        "url": "http://hdl.handle.net/10281/3210",
+        "keywords": [
+            "timing",
+            "modularisation",
+            "software architecture",
+            "world modelling",
+            "mobile robotics"
+        ],
+        "last_update": "1745222536445"
+    },
+    {
+        "handle": "3158",
+        "title": "Reflective QoS management and System Validation in the Real-time Performers Architecture",
+        "doi": null,
+        "year": "2005",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "INFORMATION",
+        "url": "http://hdl.handle.net/10281/3158",
+        "keywords": [
+            "software architectures",
+            "reflection",
+            "verification",
+            "real-time",
+            "resource allocation",
+            "quality of service",
+            "validation"
+        ],
+        "last_update": "1685694371932"
+    },
+    {
+        "handle": "27749",
+        "title": "Teaching basic object-oriented concepts using HTML",
+        "doi": null,
+        "year": "2000",
+        "authors": [
+            {
+                "id": "rp02409",
+                "name": "Daniela",
+                "surname": "Micucci"
+            }
+        ],
+        "type": "Articolo su rivista",
+        "type_driver": "info:eu-repo/semantics/article",
+        "venue": "JAVA DEVELOPER'S JOURNAL",
+        "url": "http://hdl.handle.net/10281/27749",
+        "keywords": [
+            "oriented",
+            "html",
+            "basic",
+            "teaching",
+            "concepts",
+            "object"
+        ],
+        "last_update": "1691733271466"
     }
 ]
