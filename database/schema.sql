@@ -16,7 +16,7 @@ CREATE TABLE publications (
 
 CREATE TABLE authors (
     id TEXT PRIMARY KEY,
-    name TEXT NOT NULL,
+    name TEXT,
     surname TEXT NOT NULL,
 
     insert_time TIMESTAMP NOT NULL DEFAULT NOW(),

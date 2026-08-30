@@ -146,7 +146,8 @@ def get_publications_by_author(name: str, surname: str):
                     """
                     SELECT id
                     FROM authors
-                    WHERE LOWER(surname) = LOWER(%s)
+                    WHERE name IS NULL
+                    AND LOWER(surname) = LOWER(%s)
                     """,
                     (surname,),
                 )
