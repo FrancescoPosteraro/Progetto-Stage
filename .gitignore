@@ -1,1 +1,6 @@
+.venv/
+.pytest_cache/
+htmlcov/
+.coverage
 __pycache__/
+EXTRA/

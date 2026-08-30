@@ -131,15 +131,25 @@ def get_publications_by_author(name: str, surname: str):
     with get_connection() as con:
         with con.cursor() as cur:
 
-            cur.execute(
-                """
-                SELECT id
-                FROM authors
-                WHERE LOWER(name) = LOWER(%s)
-                AND LOWER(surname) = LOWER(%s)
-                """,
-                (name, surname),
-            )
+            if name:
+                cur.execute(
+                    """
+                    SELECT id
+                    FROM authors
+                    WHERE LOWER(name) = LOWER(%s)
+                    AND LOWER(surname) = LOWER(%s)
+                    """,
+                    (name, surname),
+                )
+            else:
+                cur.execute(
+                    """
+                    SELECT id
+                    FROM authors
+                    WHERE LOWER(surname) = LOWER(%s)
+                    """,
+                    (surname,),
+                )
 
             author = cur.fetchone()
 

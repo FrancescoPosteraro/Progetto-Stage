@@ -1,17 +1,24 @@
 """
-Nome File: database_manager.py
+========================================================
+NOME FILE: database_manager.py
+
 AUTORE: Francesco Posteraro
+
 DESCRIZIONE:
 Modulo per la gestione della sincronizzazione tra le pubblicazioni
 ottenute dallo scraper e il database PostgreSQL.
 
 Contiene funzioni per la sincronizzazione del database con il file publications.json.
 
+========================================================
 """
 
 
+import os
 import psycopg      #Libreria utile per la connessione e la gestione del database PostgreSQL
 from datetime import datetime
+
+#export DB_PASSWORD="la_password_del_database"
 
 #Parametri per la connessione con il database
 DB_CONFIG = {
@@ -19,7 +26,7 @@ DB_CONFIG = {
     "port": 5432,                           #porta utilizzata dal servizio di PostgreSQL
     "dbname": "publications_IRIS_BOA",      #nome del database
     "user": "postgres",                     #Utente PostgreSQL utilizzato per l'accesso
-    "password": "Bicocca2026"               #password dell'utente
+    "password": os.getenv("DB_PASSWORD")               #password dell'utente
 }
 
 
@@ -724,26 +731,23 @@ def sync_database(pub):
             old_pub = cur.fetchone()
 
 
-            #Caso 1: pubblicazione nuova
-            if old_pub is None:
-                print("Nuova pubblicazione:", pub["handle"])
-                insert_publication(pub)
-
-
-            #Caso 2: pubblicazione già presente
-            else:
-                old_update_time = old_pub[0]
-
-                #converte i millisecondi in datetime
-                scraper_update_time = datetime.fromtimestamp(int(pub["last_update"]) / 1000)
-
-                print("DB:", old_update_time)
-                print("Scraper:", scraper_update_time)
-
-                #Controllo se è cambiata
-                if old_update_time < scraper_update_time:
-                    print("Pubblicazione modificata:", pub["handle"])
-                    update_publication(pub)
-                #Caso 3: nessuna modifica
-                else:
-                    print("Nessuna modifica:", pub["handle"])
+    #Caso 1: pubblicazione nuova
+    if old_pub is None:
+        print("Nuova pubblicazione:", pub["handle"])
+        insert_publication(pub)
+    
+    
+    #Caso 2: pubblicazione già presente
+    else:
+        old_update_time = old_pub[0]
+    
+        #converte i millisecondi in datetime
+        scraper_update_time = datetime.fromtimestamp(int(pub["last_update"]) / 1000)
+    
+        #Controllo se è cambiata
+        if old_update_time < scraper_update_time:
+            print("Pubblicazione modificata:", pub["handle"])
+            update_publication(pub)
+            #Caso 3: nessuna modifica
+        else:
+            print("Nessuna modifica:", pub["handle"])            

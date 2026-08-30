@@ -53,8 +53,8 @@ def get_latest_publications(page: int = 1, per_page: int = 10):
 """
 def get_publications_by_author(name: str = None, surname: str = None):
 
-    if not name or not surname:
-        raise HTTPException(status_code=400, detail="Nome e cognome sono obbligatori")
+    if not surname:
+        raise HTTPException(status_code=400, detail="Cognome è obbligatorio")
 
     publications = publication_repository.get_publications_by_author(name, surname)
 
