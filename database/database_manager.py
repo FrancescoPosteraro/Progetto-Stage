@@ -21,8 +21,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-#export DB_PASSWORD="la_password_del_database"
-
 #Parametri per la connessione con il database
 DB_CONFIG = {
     "host": "localhost",                    #indirizzo del server PostgreSQL
