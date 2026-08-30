@@ -64,8 +64,6 @@ Per l'esecuzione del sistema sono necessari:
 - PostgreSQL
 - dipendenze Python presenti in `requirements.txt`
 
-Per l'esecuzione automatica tramite cron è necessario un sistema Linux, ad esempio Ubuntu Server.
-
 ---
 
 ## 4. Installazione
@@ -79,6 +77,38 @@ pip install -r requirements.txt
 ```
 
 Il database PostgreSQL deve essere configurato sulla macchina e devono essere disponibili le credenziali necessarie al collegamento.
+
+## Variabili d'ambiente e Cron Job
+
+### Variabili d'ambiente
+
+Il progetto utilizza la variabile `DB_PASSWORD` per la connessione al database PostgreSQL.
+
+Creare il file `.env` a partire dal file `.env.example`:
+
+```bash
+cp .env.example .env
+```
+
+Inserire nel file `.env` la password dell'utente PostgreSQL:
+
+```env
+DB_PASSWORD=la_password_del_database
+```
+
+Il file `.env` contiene informazioni sensibili e non viene incluso nel repository.
+
+### Cron Job
+
+Per configurare l'esecuzione automatica dello scraper su Linux, eseguire:
+
+```bash
+bash install_cron.sh
+```
+
+Lo script configura automaticamente il cron job per eseguire lo scraper ogni domenica alle **03:00**.
+
+L'output dello scraper viene salvato nel file `cron.log`.
 
 ---
 

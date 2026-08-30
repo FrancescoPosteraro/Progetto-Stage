@@ -17,6 +17,9 @@ Contiene funzioni per la sincronizzazione del database con il file publications.
 import os
 import psycopg      #Libreria utile per la connessione e la gestione del database PostgreSQL
 from datetime import datetime
+from dotenv import load_dotenv
+
+load_dotenv()
 
 #export DB_PASSWORD="la_password_del_database"
 
